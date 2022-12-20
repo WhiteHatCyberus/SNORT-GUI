@@ -1,5 +1,5 @@
-# Intrusion-Detection-System-KDD-Cup-99-Bi-LSTM
-IDS using the KDD Cup 99' dataset
+# Deep Model Intrusion Detection Evaluation using NSL KDD and CIC IDS 2018
+IDS using the NSL KDD and CIC IDS 2019
 <br>
 This is a experimental project to implement intrusion Detection Systems. With the cumulation of an intrusion detection system and SNORT as a backend application, We compare the real time efficiency of each method.
 <br>
