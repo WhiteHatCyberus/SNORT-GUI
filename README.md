@@ -7,6 +7,7 @@ This is currently in progress so I will be updating this repo. ;) Hope we can le
 <br>
 # 1. KDD Cup 1999
 This database contains a standard set of data to be audited, which includes a wide variety of intrusions simulated in a military network environment.
+The competition task was to build a network intrusion detector, a predictive model capable of distinguishing between ''bad’’ connections, called intrusions or attacks, and “good” normal connections.
 
 # Connect with me
 Connect @WhCyberus @SleetyGeorge on Linkedin, Twitter. See you ;)
