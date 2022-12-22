@@ -2,7 +2,7 @@
 <br>
 This is a experimental project to implement intrusion Detection Systems. With the cumulation of an intrusion detection system and SNORT as a primitive inspiration, We compare the real time efficiency of each method.
 <br></br>
-![Capture](https://user-images.githubusercontent.com/70995581/209061112-3de8e0c7-07bd-4f7d-bb74-0c05727c52ec.PNG)
+< img src="https://user-images.githubusercontent.com/70995581/209061112-3de8e0c7-07bd-4f7d-bb74-0c05727c52ec.PNG" />
 
 <br>**This is currently in progress so I will be updating this repo.......**</br>
 <br>
