@@ -17,4 +17,4 @@ The NSL-KDD data set has the following advantages over the original KDD data set
 * The number of records in the train and test sets are reasonable, which makes it affordable to run the experiments on the complete set without the need to randomly select a small portion. Consequently, evaluation results of different research works will be consistent and comparable.
 </br>
 # Connect with me
-**Connect** @WhCyberus @SleetyGeorge on Linkedin, Twitter. See you ;)
+@WhCyberus @SleetyGeorge on Linkedin, Twitter. See you ;)
