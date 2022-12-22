@@ -5,7 +5,7 @@ This is a experimental project to implement intrusion Detection Systems. With th
 <br></br>
 <br>
 <p>align="center"
-  <img width="456" alt="Screenshot 2022-12-10 180338" src="https://user-images.githubusercontent.com/70995581/209057583-1385f9f9-ae6c-4814-b82d-3652e93f173b.png">
+  <img width="456" alt="Screenshot 2022-12-10 180338" src="https://user-images.githubusercontent.com/70995581/209057583-1385f9f9-ae6c-4814-b82d-3652e93f173b.png"/>
 </p>
 </br>
 <br>**This is currently in progress so I will be updating this repo.......**</br>
