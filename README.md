@@ -5,7 +5,7 @@ This is a experimental project to implement intrusion Detection Systems. With th
 <br>
 This is currently in progress so I will be updating this repo. ;) Hope we can learn this together
 <br>
-# 1. NSL KDD: The enhanced KDD Cup 99
+# 1. NSL KDD: The enhanced KDD Cup 99 [Refer](https://www.unb.ca/cic/datasets/nsl.html)
 <br>The KDD Cup 99 database contains a standard set of data to be audited, which includes a wide variety of intrusions simulated in a military network environment.
 The competition task was to build a network intrusion detector, a predictive model capable of distinguishing between ''bad’’ connections, called intrusions or attacks, and “good” normal connections.
 ## Improvements to the KDD'99 dataset
