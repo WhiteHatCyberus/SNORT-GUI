@@ -3,7 +3,7 @@ IDS using the NSL KDD and CIC IDS 2019
 <br>
 This is a experimental project to implement intrusion Detection Systems. With the cumulation of an intrusion detection system and SNORT as a primitive inspiration, We compare the real time efficiency of each method.
 <br>
-This is currently in progress so I will be updating this repo. ;) Hope we can learn this together
+**This is currently in progress so I will be updating this repo.......**
 <br>
 # 1. NSL KDD: The enhanced KDD Cup 99 [Refer](https://www.unb.ca/cic/datasets/nsl.html)
 <br>The KDD Cup 99 database contains a standard set of data to be audited, which includes a wide variety of intrusions simulated in a military network environment.
@@ -17,4 +17,4 @@ The NSL-KDD data set has the following advantages over the original KDD data set
 * The number of records in the train and test sets are reasonable, which makes it affordable to run the experiments on the complete set without the need to randomly select a small portion. Consequently, evaluation results of different research works will be consistent and comparable.
 </br>
 # Connect with me
-Connect @WhCyberus @SleetyGeorge on Linkedin, Twitter. See you ;)
+**Connect** @WhCyberus @SleetyGeorge on Linkedin, Twitter. See you ;)
