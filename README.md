@@ -25,3 +25,5 @@ The NSL-KDD data set has the following advantages over the original KDD data set
 * M-Profiles: Attempt to describe an attack scenario in an unambiguous manner. In the simplest case, humans can interpret these profiles and subsequently carry them out. Idealistically, autonomous agents along with compilers would be employed to interpret and execute these scenarios.
 # Connect with me
 @WhCyberus @SleetyGeorge on Linkedin, Twitter. See you ;)
+#Credits:
+Thank you [Joule Effect](https://github.com/jouleffect)
