@@ -28,6 +28,6 @@ Initially I developed a primitive intrusion detection system to detect icmp, ftp
 # Connect with me
 * [LinkedIn](https://www.linkedin.com/in/whcyberus/)
 * [Twitter](https://twitter.com/MattSleety)
-* [My Website](https://ethicalcyberuspathways.wordpress.com/)
+* [Blogs](https://ethicalcyberuspathways.wordpress.com/)
 # Credits:
 Thank you [Joule Effect](https://github.com/jouleffect)
