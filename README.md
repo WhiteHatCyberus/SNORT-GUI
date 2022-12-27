@@ -26,6 +26,8 @@ The NSL-KDD data set has the following advantages over the original KDD data set
 # The IDS Application
 Initially I developed a primitive intrusion detection system to detect icmp, ftp and port scans using the Ruby Lanaguage , I will be migrating the application to the python language.<br>
 # Connect with me
-@WhCyberus @SleetyGeorge on Linkedin, Twitter. See you ;)
+* [LinkedIn] (https://www.linkedin.com/in/whcyberus/)
+* [Twitter] (https://twitter.com/MattSleety)
+* [My Website] (https://ethicalcyberuspathways.wordpress.com/)
 # Credits:
 Thank you [Joule Effect](https://github.com/jouleffect)
