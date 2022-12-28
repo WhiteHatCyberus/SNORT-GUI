@@ -1,21 +1,21 @@
-# Import the necessary libraries
+# Import libraries
 require 'pcaprub'
 
-# Define a method for collecting network traffic data
+# for collecting network traffic data
 def collect_traffic
   # Create a new packet capturer using pcaprub
   capturer = PCAPRUB::Pcap.open_live(device, 65535, true, 1)
 
-  # Set a filter to only capture TCP packets
+  # filter to only capture TCP packets
   capturer.setfilter('tcp')
 
-  # Start capturing packets using a multithreaded approach
+  # Start capturing packets using a multithreaded approach; more optimised code
   capturer.loop(count: -1, &method(:analyze_traffic))
 end
 
-# Define a method for extracting relevant information from packet data
+# extracting relevant information from packet data
 def extract_packet_data(packet)
-  # Parse the packet data to extract IP addresses, port numbers, etc.
+  # Parsing the packet data to extract IP addresses, port numbers, etc.
   # Return the extracted data as a hash or other data structure
 end
 
@@ -37,10 +37,10 @@ def analyze_traffic(packet)
     alert_threat('Possible port scan detected!')
   end
   # Check for other signs of intrusion or malicious activity
-  # (e.g. compare against a set of rules or patterns)
+  # we can add more tyes of attack protocols here
 end
 
-# Define a method for alerting users or other systems
+# method for alerting users or other systems
 # if any threats are detected
 def alert_threat(threat_data)
   # Send an email or text message, make an HTTP request, etc.
