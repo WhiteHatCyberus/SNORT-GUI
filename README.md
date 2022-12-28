@@ -25,6 +25,8 @@ The NSL-KDD data set has the following advantages over the original KDD data set
 * M-Profiles: Attempt to describe an attack scenario in an unambiguous manner. In the simplest case, humans can interpret these profiles and subsequently carry them out. Idealistically, autonomous agents along with compilers would be employed to interpret and execute these scenarios.
 # The IDS Application
 Initially I developed a primitive intrusion detection system to detect icmp, ftp and port scans using the Ruby Lanaguage , I will be migrating the application to the python language.<br>
+# What is [Intrusion detection system overview report.pdf](https://github.com/WhiteHatCyberus/Deep-Model-Evaluation-Intrusion-Detection-System-using-NSL-KDD-CIC-IDS-2018/blob/main/intrusion%20detection%20system%20overview%20report.pdf) ??
+<br>
 # Connect with me
 * [LinkedIn](https://www.linkedin.com/in/whcyberus/)
 * [Twitter](https://twitter.com/MattSleety)
