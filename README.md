@@ -32,7 +32,7 @@ This is primarily for the beginners to understand what an IDS is and how it work
 * Furthermore, I talked about the Open Source IDS, SNORT and its 3 operational modes and compared it with other counterparts like Suricata and Bro.
 * Finally I did add the literature Survey where I compiled all the papers that helped me take an indepth seminar of the IDS and also gave me an insight to simulate real time attacks on the system.
 * Ive added the whole architecture of the working of an IDS and its deep model architecture.
-Hope this helps ;)
+<br> Hope this helps ;)
 </br>
 # Connect with me
 * [LinkedIn](https://www.linkedin.com/in/whcyberus/)
