@@ -1,0 +1,2 @@
+alert icmp any any -> $HOME_NET any (msg:"icmp";sid:10000001;)
+alert tcp any any -> $HOME_NET 21 (msg:"ftp";sid:10000002;)
