@@ -1,8 +1,16 @@
+# detect ping 
 alert icmp any any -> $HOME_NET any (msg:"icmp";sid:10034;)
-alert tcp $EXTERNAL_NET any -> $HOME_NET 21 (msg:"FTP Attempt"; content:"USER"; sid:10001;)
-alert tcp $EXTERNAL_NET any -> $HOME_NET 21 (msg:"FTP Login Successful"; content:"230 Login successful"; sid:10002;)
-alert tcp $EXTERNAL_NET any -> $HOME_NET 21 (msg:"FTP Login Failed"; content:"530 Login incorrect"; sid:10003;)
-alert tcp $EXTERNAL_NET any -> $HOME_NET 21 (msg:"FTP Upload"; content:"STOR"; sid:10004;)
-alert tcp $EXTERNAL_NET any -> $HOME_NET 21 (msg:"FTP Change Directory"; content:"CWD"; sid:10005;)
-alert tcp $EXTERNAL_NET any -> $HOME_NET 21 (msg:"FTP Download"; content:"RETR"; sid:10006;)
-alert tcp $EXTERNAL_NET any -> $HOME_NET 21 (msg:"FTP Exit"; content:"QUIT"; sid:10007;)
+# FTP 
+alert tcp any any -> $HOME_NET 21 (msg:"FTP Attempt"; content:"USER"; sid:10001;)
+alert tcp any any -> $HOME_NET 21 (msg:"FTP Login Successful"; content:"230"; sid:10002;)
+alert tcp any any -> $HOME_NET 21 (msg:"FTP Login Failed"; content:"530"; sid:10003;)
+alert tcp any any -> $HOME_NET 21 (msg:"FTP Upload"; content:"STOR"; sid:10004;)
+alert tcp any any -> $HOME_NET 21 (msg:"FTP Change Directory"; content:"CWD"; sid:10005;)
+alert tcp any any -> $HOME_NET 21 (msg:"FTP Download"; content:"RETR"; sid:10006;)
+alert tcp any any -> $HOME_NET 21 (msg:"FTP Exit"; content:"QUIT"; sid:10007;)
+# Detect Nmap scan for both ICMP and TCP protocols
+# nmap -sP <target IP>
+alert icmp any any -> $HOME_NET any (msg:"Nmap ICMP scan detected"; content:"|08 00 00 00 01 08 00 00 00 00|"; sid:10008;)
+# nmap -sT <target IP>
+alert tcp any any -> $HOME_NET any (msg:"Nmap TCP scan detected"; flags:S; content:"|4E 6D 61 70|"; sid:10009;)
+
