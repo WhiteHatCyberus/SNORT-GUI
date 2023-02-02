@@ -1,2 +1,12 @@
 alert icmp any any -> $HOME_NET any (msg:"icmp";sid:10000001;)
-alert tcp any any -> $HOME_NET 21 (msg:"ftp";sid:10000002;)
+alert tcp any any -> $HOME_NET 21 (msg:"ftp attempt";sid:10000002;)
+#ftp login successful
+alert tcp any any -> $HOME_NET 21 (content:"230 Login successful.";msg:"FTP login successful detected"; sid:1000003;)
+#ftp login failed
+alert tcp any any -> $HOME_NET 21 (content:"530 Login incorrect."; msg:"FTP login failed detected"; sid:1000004;)
+#ftp file upload
+alert tcp any any -> $HOME_NET 21 (content:"150 Ok to send data."; msg:"FTP file upload detected"; sid:1000005;)
+#ftp file download
+alert tcp any any -> $HOME_NET 21 (content:"150 Opening ASCII mode data connection for file"; msg:"FTP file download detected"; sid:1000006;)
+#ftp session exit
+alert tcp any any -> $HOME_NET 21 (content:"221 Goodbye."; msg:"ftp session exit detected";sid:1000007;) 
