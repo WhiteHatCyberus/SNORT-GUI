@@ -13,4 +13,12 @@ alert tcp any any -> $HOME_NET 21 (msg:"FTP Exit"; content:"QUIT"; sid:10007;)
 alert icmp any any -> $HOME_NET any (msg:"Nmap ICMP scan detected"; content:"|08 00 00 00 01 08 00 00 00 00|"; sid:10008;)
 # nmap -sT <target IP>
 alert tcp any any -> $HOME_NET any (msg:"Nmap TCP scan detected"; flags:S; content:"|4E 6D 61 70|"; sid:10009;)
+# telnet rules
+alert tcp any any -> any 23 (msg:"Telnet login attempt"; content:"login"; nocase;)
+
+alert tcp any any -> any 23 (msg:"Successful Telnet login"; content:"login successful"; nocase;)
+
+alert tcp any any -> any 23 (msg:"Unsuccessful Telnet login"; content:"login failed"; nocase;)
+
+alert tcp any any -> any 23 (msg:"Telnet exit"; content:"exit"; nocase;)
 
