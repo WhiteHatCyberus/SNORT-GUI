@@ -25,6 +25,14 @@ The NSL-KDD data set has the following advantages over the original KDD data set
 * M-Profiles: Attempt to describe an attack scenario in an unambiguous manner. In the simplest case, humans can interpret these profiles and subsequently carry them out. Idealistically, autonomous agents along with compilers would be employed to interpret and execute these scenarios.
 # The IDS Application ([ids.rb](https://github.com/WhiteHatCyberus/Deep-Model-Evaluation-Intrusion-Detection-System-using-NSL-KDD-CIC-IDS-2018/blob/main/ids.rb))
 Initially I developed a primitive intrusion detection system to detect icmp, ftp and port scans using the Ruby Lanaguage , I will be migrating the application to the python language.<br>
+# SNORT
+Snort is a Intrusion Detection System developed by OpenSource Sourcefire and currently maintained by Cisco Talos. For now, Snort 2.9 is single threaded, the new Snort 3 is multi-threaded (ie. it can run multiple processes simultaneously). SNORT has a command line interace and no GUI.<br>
+### * WHAT DOES IT DO?
+Primarily, SNORT runs by predefined rules set by the administrator, if a rule matches, a alert message is displayed in the SNORT console.
+### * WHAT HAVE WE DONE THERE?
+To facilitate new users and sys admins to understand the dynamic nature of SNORT, we intend to make a Graphical User Interface 
+(GUI) to write rules and execute the IDS in the backend while maintaining User friendliness in the frontend.
+*DISCLAIMER: As of now, we have written rules for icmp, ftp, and smtp.*
 # What is [Intrusion detection system overview report.pdf](https://github.com/WhiteHatCyberus/Deep-Model-Evaluation-Intrusion-Detection-System-using-NSL-KDD-CIC-IDS-2018/blob/main/intrusion%20detection%20system%20overview%20report.pdf) ??
 This is primarily for the beginners to understand what an IDS is and how it works, Ive added powerpoint slides of references at the end of the report.
 * I discussed what an IDS is, types of IDS, detection methods
