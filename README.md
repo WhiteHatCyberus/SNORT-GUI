@@ -46,4 +46,5 @@ This is primarily for the beginners to understand what an IDS is and how it work
 * [Twitter](https://twitter.com/MattSleety)
 * [Blogs](https://ethicalcyberuspathways.wordpress.com/)
 # Credits:
-Thank you [Joule Effect](https://github.com/jouleffect)
+Thank you [Joule Effect](https://github.com/jouleffect),
+[MuratBulbul](https://github.com/muratbulbul)
