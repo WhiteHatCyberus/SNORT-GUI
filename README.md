@@ -23,8 +23,6 @@ The NSL-KDD data set has the following advantages over the original KDD data set
 * B-profiles: Encapsulate the entity behaviours of users using various machine learning and statistical analysis techniques (such as K-Means, Random Forest, SVM, and J48). The encapsulated features are distributions of packet sizes of a protocol, number of packets per flow, certain patterns in the payload, size of payload, and request time distribution of a protocol. The following protocols will be simulated in our testbed environment: HTTPS, HTTP, SMTP, POP3, IMAP, SSH, and FTP. Based on our initial observations majority of traffic is HTTP and HTTPS.
 
 * M-Profiles: Attempt to describe an attack scenario in an unambiguous manner. In the simplest case, humans can interpret these profiles and subsequently carry them out. Idealistically, autonomous agents along with compilers would be employed to interpret and execute these scenarios.
-# The IDS Application ([ids.rb](https://github.com/WhiteHatCyberus/Deep-Model-Evaluation-Intrusion-Detection-System-using-NSL-KDD-CIC-IDS-2018/blob/main/ids.rb))
-Initially I developed a primitive intrusion detection system to detect icmp, ftp and port scans using the Ruby Lanaguage , I will be migrating the application to the python language.<br>
 # SNORT
 Snort is a Intrusion Detection System developed by OpenSource Sourcefire and currently maintained by Cisco Talos. For now, Snort 2.9 is single threaded, the new Snort 3 is multi-threaded (ie. it can run multiple processes simultaneously). SNORT has a command line interace and no GUI.<br>
 ### * WHAT DOES IT DO?
