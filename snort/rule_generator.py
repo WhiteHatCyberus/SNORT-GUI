@@ -2,8 +2,11 @@ import sys
 import os
 import tkinter as tk
 from tkinter import *
-#from tkinter import messagebox
+from tkinter import filedialog
+from tkinter.filedialog import askopenfile
+from tkinter import messagebox
 #from tkinter import filedialog
+from tkinter.messagebox import askokcancel
 
 
 
@@ -53,16 +56,16 @@ sidx=StringVar()
 
 #Functions
 def mAbout():
-    messagebox.showinfo(title='About',message='Hakkimizda olanlar')
+    messagebox.showinfo(title='About',message='SNORT Rule Generator')
     return
 
 def mOpen():
-    myopen=filedialog.askopenfile()
+    myopen=filedialog.askopenfilename()
     mylabel4=Label(text=myopen).pack()
     return
 
 def mQuit():
-    mexit=messagebox.askokcancel(title='Cikis',message='Cikis yapmak uzeresiniz!')
+    mexit=messagebox.askokcancel(title='Exit',message='Are you sure?')
     if mexit>0:
         snort.destroy()
         return
