@@ -413,7 +413,7 @@ Reference2=StringVar()
 def Rulecreate():
     #Header of the rule
     if var.get() == "Select" or var2.get() == "Select" or var3.get() == "Select" or var4.get() == "Select" or var5.get() == "Select" or var6.get() == "Select":
-        messagebox.showwarning("Uyari","Header Rule Missed")
+        messagebox.showwarning("Error","Header Rule Missed")
     else:
         global Ruleheader
         global Rulebody
@@ -534,6 +534,7 @@ menubar.add_cascade(label="Files",menu=filemenu)
 
 
 #Edit
+'''
 editmenu=Menu(menubar,tearoff=0)
 editmenu.add_command(label="Search in File")
 editmenu.add_command(label="Edit URL")
@@ -550,9 +551,9 @@ insertmenu.add_command(label="Add IP")
 insertmenu.add_command(label="Add Network")
 insertmenu.add_command(label="Add LAN")
 menubar.add_cascade(label="Tools",menu=insertmenu)
-
+'''
 snort.config(menu=menubar)
 
-
+snort.resizable(False,False)
 #End line
 snort.mainloop()
