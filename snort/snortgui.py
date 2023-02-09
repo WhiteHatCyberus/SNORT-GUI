@@ -19,7 +19,7 @@ snort.resizable(width=None, height=None)
 snort.geometry('1200x650+1+1')
 # Open the Image File
 
-bg = ImageTk.PhotoImage(file="/home/matty/Desktop/snort/Gui-Snort-Rule-Generator/snort.jpg")
+bg = ImageTk.PhotoImage(file="/home/matty/Desktop/snort/snort.jpg")
 
 # Create a Canvas
 canvas = Canvas(snort, width=1200, height=650)
@@ -32,7 +32,7 @@ canvas.create_image(0, 0, image=bg, anchor='nw')
 def resize_image(e):
    global image, resized, image2
    # open image to resize it
-   image = Image.open('/home/matty/Desktop/snort/Gui-Snort-Rule-Generator/snort.jpg')
+   image = Image.open('/home/matty/Desktop/snort/snort.jpg')
    # resize the image with width and height of root
    resized = image.resize((e.width, e.height), Image.ANTIALIAS)
 
