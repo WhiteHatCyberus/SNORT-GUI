@@ -31,6 +31,11 @@ Primarily, SNORT runs by predefined rules set by the administrator, if a rule ma
 To facilitate new users and sys admins to understand the dynamic nature of SNORT, we intend to make a Graphical User Interface 
 (GUI) to write rules and execute the IDS in the backend while maintaining User friendliness in the frontend.<br>
 *DISCLAIMER: As of now, we have written rules for icmp, ftp, and smtp.*
+# The SNORT GUI [v1.0.0]
+## The snort main program consists of:
+* A rule generation tool that makes formulating rules faster.
+* Open .rules file
+* Provide help centre.
 # What is [Intrusion detection system overview report.pdf](https://github.com/WhiteHatCyberus/Deep-Model-Evaluation-Intrusion-Detection-System-using-NSL-KDD-CIC-IDS-2018/blob/main/intrusion%20detection%20system%20overview%20report.pdf) ??
 This is primarily for the beginners to understand what an IDS is and how it works, Ive added powerpoint slides of references at the end of the report.
 * I discussed what an IDS is, types of IDS, detection methods
