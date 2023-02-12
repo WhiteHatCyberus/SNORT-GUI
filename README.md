@@ -7,7 +7,7 @@ This is a research project to implement intrusion Detection Systems. With the cu
 <br>**This is currently in progress so I will be updating this repo.......**</br>
 <br>
 
-# The SNORT GUI [v1.0.0]
+# [The SNORT GUI [v1.0.0]](https://github.com/WhiteHatCyberus/Deep-Model-Evaluation-Intrusion-Detection-System-using-NSL-KDD-CIC-IDS-2018/tree/main/snort/SNORT%20GUI)
 The snort main program consists of:
 * A rule generation tool that makes formulating rules faster.
 * Open .rules file
