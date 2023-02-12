@@ -16,7 +16,7 @@ The snort main program consists of:
 * Provide help centre.
 Run
 ``` bash
-sudo python3 rule_generator.py
+sudo python3 snortgui.py
 ```
 
 # Connect with me
