@@ -5,4 +5,5 @@ Primarily, SNORT runs by predefined rules set by the administrator, if a rule ma
 ### * WHAT HAVE WE DONE HERE?
 To facilitate new users and sys admins to understand the dynamic nature of SNORT, we intend to make a Graphical User Interface 
 (GUI) to write rules and execute the IDS in the backend while maintaining User friendliness in the frontend.<br>
+<br>
 *DISCLAIMER: As of now, we have written rules for icmp, ftp, and smtp.*
