@@ -14,8 +14,6 @@ The snort main program consists of:
 * A rule generation tool that makes formulating rules faster.
 * Open .rules file
 * Provide help centre.
-<br>
-Run<br>
 ``` bash
 sudo python3 snortgui.py
 ```
