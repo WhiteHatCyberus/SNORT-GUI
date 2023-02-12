@@ -14,6 +14,10 @@ The snort main program consists of:
 * A rule generation tool that makes formulating rules faster.
 * Open .rules file
 * Provide help centre.
+Run
+``` bash
+sudo python3 rule_generator.py
+```
 
 # Connect with me
 * [LinkedIn](https://www.linkedin.com/in/whcyberus/)
