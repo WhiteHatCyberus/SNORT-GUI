@@ -15,7 +15,7 @@ The snort main program consists of:
 * Open .rules file
 * Provide help centre.
 <br>
-Run
+Run<br>
 ``` bash
 sudo python3 snortgui.py
 ```
