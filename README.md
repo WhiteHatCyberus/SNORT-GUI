@@ -16,6 +16,7 @@ The snort main program consists of:
 # Connect with me
 * [LinkedIn](https://www.linkedin.com/in/whcyberus/)
 * [Blogs](https://ethicalcyberuspathways.wordpress.com/)
+* [Email](mailto:whcyberus@gmail.com)
 # Credits:
 Thank you [Joule Effect](https://github.com/jouleffect),
 [ChrisJD20](https://github.com/chrisjd20/Snorpy)
