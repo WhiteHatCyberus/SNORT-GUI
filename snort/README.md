@@ -7,3 +7,4 @@ To facilitate new users and sys admins to understand the dynamic nature of SNORT
 (GUI) to write rules and execute the IDS in the backend while maintaining User friendliness in the frontend.<br>
 <br>
 *DISCLAIMER: As of now, we have written rules for icmp, ftp, and smtp.*
+# I will be adding the GUI images very soon...STAY TUNED
