@@ -1,4 +1,3 @@
-import sys
 import os
 import tkinter as tk
 from tkinter import *
@@ -8,16 +7,10 @@ from tkinter import messagebox
 #from tkinter import filedialog
 from tkinter.messagebox import askokcancel
 
-
-
 snort=tk.Tk()
 
-snort.resizable(width=None, height=None)
-#snort.wm_iconbitmap('labris.ico')
-#snort.withdraw()
 snort.geometry('1200x650+1+1')
-#400+100 the position on the screen
-#800x400 screen size
+
 
 #Title of tkinter
 snort.title('Intrusion Detection System - Made By WhiteHatCyberus')
@@ -178,14 +171,6 @@ priotext=Label(frame2,text='Priority',fg='black',font=('Verdana', 8),bg='white')
 var9=StringVar()
 pri=Entry(frame2,textvariable=var9,width = 12,bd=3,justify=RIGHT,selectforeground='black').grid(row=1,column=3,sticky=W)
 
-#mylist9=['high','medium','low']
-#var9=StringVar()
-#var9.set("Select")
-#mymenu9=OptionMenu(frame2,var9,*mylist9)
-#mymenu9.grid(row=1,column=3)
-#mymenu9.config(font=('calibri',(10)),bg='white',width=6,cursor="hand2")
-#mymenu9['menu'].config(font=('calibri',(10)),bg='white',cursor="hand2")
-
 ######Content
 CheckVar1 = IntVar()
 CheckVar2 = IntVar()
@@ -305,7 +290,7 @@ countt=IntVar()
 secondss=IntVar()
 
 tracklabel=Label(frame6,text='Track',fg='black',font=('Verdana', 8)).grid(row=2,column=6,sticky=E)
-#trackk=Entry(frame6,textvariable=offset,width = 8,bd=2,justify=LEFT,selectforeground='black').grid(row=2,column=4,sticky=W)
+
 mylist13=['by_src','by_dst']
 var13=StringVar()
 var13.set("Select")
@@ -532,28 +517,8 @@ filemenu.add_command(label="Save as")
 filemenu.add_command(label="Exit", command=mQuit)
 menubar.add_cascade(label="Files",menu=filemenu)
 
-
-#Edit
-'''
-editmenu=Menu(menubar,tearoff=0)
-editmenu.add_command(label="Search in File")
-editmenu.add_command(label="Edit URL")
-editmenu.add_command(label="Edit Proxy")
-editmenu.add_command(label="Edit Local Network")
-menubar.add_cascade(label="Edit",menu=editmenu)
-
-
-#Tools
-insertmenu=Menu(menubar,tearoff=0)
-insertmenu.add_command(label="Add Proxy Server")
-insertmenu.add_command(label="Add URL")
-insertmenu.add_command(label="Add IP")
-insertmenu.add_command(label="Add Network")
-insertmenu.add_command(label="Add LAN")
-menubar.add_cascade(label="Tools",menu=insertmenu)
-'''
 snort.config(menu=menubar)
 
 snort.resizable(False,False)
-#End line
+
 snort.mainloop()
