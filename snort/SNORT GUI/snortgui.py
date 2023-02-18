@@ -13,26 +13,21 @@ import subprocess
 snort = Tk()
 #Title of tkinter
 snort.title('Intrusion Detection System - Made By WhiteHatCyberus')
-snort.resizable(width=None, height=None)
-#snort.wm_iconbitmap('labris.ico')
-#snort.withdraw()
-snort.geometry('1200x650+1+1')
-# Open the Image File
 
-bg = ImageTk.PhotoImage(file="/home/matty/Desktop/snort/snort.jpg")
+snort.geometry('1200x650+1+1')
 
 # Create a Canvas
 canvas = Canvas(snort, width=1200, height=650)
 canvas.pack(fill=BOTH, expand=True)
 
 # Add Image inside the Canvas
-canvas.create_image(0, 0, image=bg, anchor='nw')
+#canvas.create_image(0, 0, image=bg, anchor='nw')
 
 # Function to resize the window
 def resize_image(e):
    global image, resized, image2
    # open image to resize it
-   image = Image.open('/home/matty/Desktop/snort/snort.jpg')
+   image = Image.open('snort.jpg')
    # resize the image with width and height of root
    resized = image.resize((e.width, e.height), Image.ANTIALIAS)
 
