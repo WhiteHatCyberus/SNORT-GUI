@@ -1,24 +1,8 @@
-# detect ping 
-alert icmp any any -> $HOME_NET any (msg:"icmp";sid:10034;)
+# icmp
+alert icmp any any -> $HOME_NET any (msg:"ping 1 detected"; sid:1001;)
 # FTP 
 alert tcp any any -> $HOME_NET 21 (msg:"FTP Attempt"; content:"USER"; sid:10001;)
-alert tcp any any -> $HOME_NET 21 (msg:"FTP Login Successful"; content:"230"; sid:10002;)
-alert tcp any any -> $HOME_NET 21 (msg:"FTP Login Failed"; content:"530"; sid:10003;)
 alert tcp any any -> $HOME_NET 21 (msg:"FTP Upload"; content:"STOR"; sid:10004;)
 alert tcp any any -> $HOME_NET 21 (msg:"FTP Change Directory"; content:"CWD"; sid:10005;)
 alert tcp any any -> $HOME_NET 21 (msg:"FTP Download"; content:"RETR"; sid:10006;)
 alert tcp any any -> $HOME_NET 21 (msg:"FTP Exit"; content:"QUIT"; sid:10007;)
-# Detect Nmap scan for both ICMP and TCP protocols
-# nmap -sP <target IP>
-alert icmp any any -> $HOME_NET any (msg:"Nmap ICMP scan detected"; content:"|08 00 00 00 01 08 00 00 00 00|"; sid:10008;)
-# nmap -sT <target IP>
-alert tcp any any -> $HOME_NET any (msg:"Nmap TCP scan detected"; flags:S; content:"|4E 6D 61 70|"; sid:10009;)
-# telnet rules
-alert tcp any any -> any 23 (msg:"Telnet login attempt"; content:"login"; nocase;)
-
-alert tcp any any -> any 23 (msg:"Successful Telnet login"; content:"login successful"; nocase;)
-
-alert tcp any any -> any 23 (msg:"Unsuccessful Telnet login"; content:"login failed"; nocase;)
-
-alert tcp any any -> any 23 (msg:"Telnet exit"; content:"exit"; nocase;)
-
