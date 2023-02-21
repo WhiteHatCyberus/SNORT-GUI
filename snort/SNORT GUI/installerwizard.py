@@ -1,11 +1,12 @@
 import os
+os.system("sudo apt install python3-tk")
 import tkinter as tk
 from tkinter import *
 from tkinter import ttk,messagebox,scrolledtext
 # the terms and conditions
 tc='''
 You are using the SNORT GUI developed by White Hat Cyberus!
-Developed by 4 students from Rajagiri School of Engineering and Technology in January, 2023. This is a Open Source Software, so feel free to check out the code.
+Developed by 4 students from Rajagiri School of Engineering and Technology . This is a Open Source Software, so feel free to check out the code.
 Github: https://github.com/WhiteHatCyberus
 Disclaimer:
 To be used for personal, educational and enterprise purposes. 
