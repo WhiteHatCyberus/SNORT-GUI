@@ -18,7 +18,7 @@ sudo apt install snort -y
 ```
 if manually prompted to enter the network interface snort has to listen to, the information can be obtained by a function called 'ifconfig'
 ```bash
-apt install net-tools -y                  // this is installs ifconfig in the system
+apt install net-tools -y                  // this installs ifconfig in the system
 ifconfig
 ```
 <img width="374" alt="ifconfig" src="https://user-images.githubusercontent.com/70995581/220833040-55b49909-4241-41ac-a80c-2ff7041a963f.png"></br>
