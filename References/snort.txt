@@ -28,7 +28,8 @@ $EXTERNAL_NET $HOME_NET
 
 alert icmp any any -> home_ip any (......................)
  >sleety.config
-var HOME_NET ip1/p1 ip2/p2.............................
-var EXTERNAL_NET ...........................................
+var HOME_NET [ip1/p1,ip2/p2.............................]
+var EXTERNAL_NET [...........................................]
 
- <-> ->
+ <> Bidirectional
+ -> Unidirectional
