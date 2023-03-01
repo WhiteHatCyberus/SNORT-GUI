@@ -1,82 +1,70 @@
 import os
-from tkinter import *
-from tkinter import Frame
-import PIL
-from PIL import *
-from PIL import ImageTk
-from PIL import Image
-import tkinter.font as fnt
-from tkinter import ttk
-from tkinter import messagebox
-from tkinter import filedialog
 import subprocess
-snort = Tk()
-#Title of tkinter
-snort.title('Intrusion Detection System - Made By WhiteHatCyberus')
+import tkinter as tk
+from tkinter import messagebox, filedialog
+from PIL import ImageTk, Image
 
-snort.geometry('1200x650+1+1')
+# create the main window
+root = tk.Tk()
+root.title('Intrusion Detection System - Made By WhiteHatCyberus')
+root.geometry('1200x650+1+1')
+root.resizable(False, False)
 
-# Create a Canvas
-canvas = Canvas(snort, width=1200, height=650)
-canvas.pack(fill=BOTH, expand=True)
+# create a canvas to display the background image
+canvas = tk.Canvas(root, width=1200, height=650)
+canvas.pack(fill=tk.BOTH, expand=True)
 
-# Add Image inside the Canvas
-#canvas.create_image(0, 0, image=bg, anchor='nw')
+# load and display the background image
+img = Image.open('snort.jpg')
+img = img.resize((1200, 650), Image.ANTIALIAS)
+img = ImageTk.PhotoImage(img)
+canvas.create_image(0, 0, image=img, anchor=tk.NW)
 
-# Function to resize the window
-def resize_image(e):
-   global image, resized, image2
-   # open image to resize it
-   image = Image.open('snort.jpg')
-   # resize the image with width and height of root
-   resized = image.resize((e.width, e.height), Image.ANTIALIAS)
+# define the functions for the buttons
+def generate_rules():
+    os.system('python3 rule_generator.py')
 
-   image2 = ImageTk.PhotoImage(resized)
-   canvas.create_image(0, 0, image=image2, anchor='nw')
+def open_files():
+    filename = filedialog.askopenfilename(initialdir='/etc/snort/rules/', title='Select File',
+                                          filetypes=(('SNORT Rules', '*.rules'), ('config', '*.conf')))
+    if filename:
+        subprocess.run(['sudo', 'gedit', filename])
 
-# Bind the function to configure the parent window
-snort.bind("<Configure>", resize_image)
-canvas.place(x=0, y=0)
-################################################################################################
-#functions
-def function1():
-    
-    os.system("python3 rule_generator.py")
+def run_ids():
+    pass
 
-#exit
-def mQuit():
-    mexit=messagebox.askokcancel(title='Exit',message='Are you sure?')
-    if mexit>0:
-        snort.destroy()
-        return
-#OpenFiles
-def FOpen():
-    snort.filename=filedialog.askopenfilename(initialdir="/etc/snort/rules/",title="Select File",filetypes=(("SNORT Rules","*.rules"),("config","*.conf")))
-    subprocess.run(["sudo","gedit",snort.filename])
-#################################################################################################
-#buttons
-button = Button(snort, width=20, height=2,text="GENERATE RULES", font = fnt.Font(size = 15), cursor="hand2",bg="#000", relief="groove", fg="#fff",command=function1,activebackground="#f00", activeforeground="#fff")
-button.place(x=45, y=150)
-button = Button(snort, width=20, height=2, text="OPEN FILES", font = fnt.Font(size = 15), cursor="hand2",bg="#000", relief="groove", fg="#fff",command=FOpen,activebackground="#f00", activeforeground="#fff")
-button.place(x=45, y=300)
-button = Button(snort, width=20, height=2, text="RUN IDS", font = fnt.Font(size = 15), cursor="hand2",bg="#000", relief="groove", fg="#fff",command=function1,activebackground="#f00", activeforeground="#fff")
-button.place(x=45, y=450)
+def exit_app():
+    if messagebox.askokcancel(title='Exit', message='Are you sure?'):
+        root.destroy()
 
-#button.pack(padx=0,pady=150)
-frame = Frame(snort,height = 50, width = 100)
-#################################################################################
-#Menus
-menubar=Menu(frame)
+# create the buttons
+button_width, button_height = 20, 2
+button_font = ('TkDefaultFont', 15)
+button_bg, button_fg = '#000', '#fff'
+button_active_bg, button_active_fg = '#f00', '#fff'
 
-#Menu
-filemenu=Menu(menubar,tearoff=0)
+generate_button = tk.Button(root, width=button_width, height=button_height, text='GENERATE RULES', font=button_font,
+                            bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
+                            activeforeground=button_active_fg, command=generate_rules)
+generate_button.place(x=45, y=150)
 
-#filemenu.add_command(label="Colour", command=mColor)
-filemenu.add_command(label="Exit",command=mQuit)
-filemenu.add_command(label="About")
-menubar.add_cascade(label="Files",menu=filemenu)
+open_button = tk.Button(root, width=button_width, height=button_height, text='OPEN FILES', font=button_font,
+                        bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
+                        activeforeground=button_active_fg, command=open_files)
+open_button.place(x=45, y=300)
 
+run_button = tk.Button(root, width=button_width, height=button_height, text='RUN IDS', font=button_font,
+                       bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
+                       activeforeground=button_active_fg, command=run_ids)
+run_button.place(x=45, y=450)
 
-snort.config(menu=menubar)
-snort.resizable(False, False)
-snort.mainloop()
+# create the menu bar
+menu_bar = tk.Menu(root)
+
+file_menu = tk.Menu(menu_bar, tearoff=0)
+file_menu.add_command(label='Exit', command=exit_app)
+file_menu.add_command(label='About')
+menu_bar.add_cascade(label='Files', menu=file_menu)
+
+root.config(menu=menu_bar)
+root.mainloop()
