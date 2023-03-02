@@ -26,4 +26,4 @@ What you will need
 > Adapter names should be changed accordingly to system configuration, this can be check by running the ```ifconfig``` command.
 
 ## TESTING
-Now your isolated environment is ready, to check whether the connection is successful, use ```ping```.
+Now your isolated environment is ready, to check whether the connection is successfully established, use ```ping```.
