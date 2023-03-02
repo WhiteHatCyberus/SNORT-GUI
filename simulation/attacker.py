@@ -1,48 +1,40 @@
 import tkinter as tk
-import subprocess
 from tkinter import messagebox
+import subprocess
 
-# Create the main window
+def select_attack(attack_type):
+    target_ip = target_ip_entry.get()
+    if target_ip == "":
+        messagebox.showerror("Error", "Please enter a target IP.")
+        return
+    if target_ip == "127.0.0.1":
+        messagebox.showerror("Error", "Target IP cannot be the same as home IP.")
+        return
+    # Check if target IP is reachable
+    response = subprocess.call(["ping", "-c", "1", "-W", "1", target_ip])
+    if response == 0:
+        messagebox.showinfo("Success", f"Selected {attack_type} attack on {target_ip}.")
+    else:
+        messagebox.showerror("Error", f"Target IP {target_ip} is not reachable.")
+
 root = tk.Tk()
 root.title("Attack Simulation")
+root.geometry("400x200")
 root.resizable(False, False)
 
-# Create the label for the attack type
-attack_label = tk.Label(root, text="Select Attack Type:")
-attack_label.grid(row=0, column=0, padx=5, pady=5, sticky="w")
+# Attack Type Label
+attack_label = tk.Label(root, text="Attack Type:")
+attack_label.grid(row=0, column=0, padx=5, pady=5)
 
-# Create the menu bar for the attack type options
-menu_bar = tk.Menu(root)
-attack_menu = tk.Menu(menu_bar, tearoff=0)
-attack_menu.add_command(label="Probe")
-attack_menu.add_command(label="DoS")
-attack_menu.add_command(label="U2R")
-attack_menu.add_command(label="R2L")
-menu_bar.add_cascade(label="Select Attack Type", menu=attack_menu)
-root.config(menu=menu_bar)
+# Attack Type Menu
+attack_var = tk.StringVar(value="Select an Attack Type")
+attack_menu = tk.OptionMenu(root, attack_var, "Probe", "DoS", "U2R", "R2L", command=select_attack)
+attack_menu.grid(row=0, column=1, padx=5, pady=5)
+attack_label.menu = attack_menu
 
-# Create the label for the target IP
-ip_label = tk.Label(root, text="Enter Target IP:")
-ip_label.grid(row=1, column=0, padx=5, pady=5, sticky="w")
+# Target IP Label and Entry
+tk.Label(root, text="Target IP:").grid(row=1, column=0, padx=5, pady=5)
+target_ip_entry = tk.Entry(root)
+target_ip_entry.grid(row=1, column=1, padx=5, pady=5)
 
-# Create the text field for the target IP
-ip_entry = tk.Entry(root)
-ip_entry.grid(row=1, column=1, padx=5, pady=5)
-
-# Define the function to run the ping command
-def run_ping():
-    target_ip = ip_entry.get()
-    ping_process = subprocess.Popen(['ping', '-c', '4', target_ip], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    ping_output, ping_error = ping_process.communicate()
-    ping_output_str = ping_output.decode('utf-8')
-    if "0% packet loss" in ping_output_str:
-        messagebox.showinfo("Success", "Ping to " + target_ip + " was successful!")
-    else:
-        messagebox.showerror("Failure", "Ping to " + target_ip + " failed.")
-
-# Create the button to run the ping command
-ping_button = tk.Button(root, text="Ping", command=run_ping)
-ping_button.grid(row=2, column=0, padx=5, pady=5)
-
-# Run the main loop
 root.mainloop()
