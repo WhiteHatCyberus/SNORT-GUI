@@ -13,16 +13,16 @@ What you will need
 - Kali (Red team, Attacker, External user)
 
 ## CONFIGURATION
-> Firstly lets configure the virtual machines, for this project I've taken the liberty to use ```Oracle VirtualBox 7```
+Firstly lets configure the virtual machines, for this project I've taken the liberty to use ```Oracle VirtualBox 7```
 
 **To set up the testing environment that is isolated from the host system, do the following:**
-1. Go to Oracle Virtualbox 7, select the ```Ubuntu``` Virtual Machine, Click ```Settings```, Go to Network.
-> Select Network Type as ```Internal Network```, Type Name as 'isolatednetwork'.
-2. Repeat step 1 for the ```Kali``` Virtual Machine also.
+1. Go to Oracle Virtualbox 7, select the ```Ubuntu``` Virtual Machine, Click ```Settings```, Go to Network. 
+2. Select Network Type as 'Internal Network', Type Name as ```isolatednetwork```.
+3. Repeat step 1 for the ```Kali``` Virtual Machine also.
 > Note: Make sure the Internal Network name remains the same for both virtual machines ie. ```isolatednetwork```.
-3. Run Kali Linux and Ubuntu simultaneously.
-4. In Kali, run ```kali.py```, considering eth0 is the Internal Network Adapter
-5. In Ubuntu, run ```ubuntu.py```, considering enp0s3 is the Internal Network Adapter
+4. Run Kali Linux and Ubuntu simultaneously.
+5. In Kali, run ```kali.py```, considering eth0 is the Internal Network Adapter
+6. In Ubuntu, run ```ubuntu.py```, considering enp0s3 is the Internal Network Adapter
 > Adapter names should be changed accordingly to system configuration, this can be check by running the ```ifconfig``` command.
 
 ## TESTING
