@@ -1,4 +1,4 @@
-# Deep Model Intrusion Detection Evaluation of NSL KDD and CIC IDS 2018 datasets and Development of SNORT GUI.
+# [In Progress....] Deep Model Intrusion Detection Evaluation of NSL KDD and CIC IDS 2018 datasets and Development of SNORT GUI.
 
 This research project implements a Network Intrusion Detection System, comparing the real-time efficiency of each method through the cumulation of an intrusion detection system and SNORT as a primitive inspiration.
 
