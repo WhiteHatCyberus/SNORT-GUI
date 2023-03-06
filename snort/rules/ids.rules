@@ -1,8 +1,12 @@
 # icmp
 alert icmp any any -> $HOME_NET any (msg:"ping 1 detected"; sid:1001;)
 # FTP 
-alert tcp any any -> $HOME_NET 21 (msg:"FTP Attempt"; content:"USER"; sid:10001;)
+alert tcp any any -> $HOME_NET 21 (msg:"FTP Attempt"; content:"USER"; priority:1;sid:10001;)
 alert tcp any any -> $HOME_NET 21 (msg:"FTP Upload"; content:"STOR"; sid:10004;)
 alert tcp any any -> $HOME_NET 21 (msg:"FTP Change Directory"; content:"CWD"; sid:10005;)
 alert tcp any any -> $HOME_NET 21 (msg:"FTP Download"; content:"RETR"; sid:10006;)
-alert tcp any any -> $HOME_NET 21 (msg:"FTP Exit"; content:"QUIT"; sid:10007;)
+alert tcp any any -> $HOME_NET 21 (msg:"FTP Exit"; content:"QUIT"; priority:1; sid:10007;)
+# smtp
+alert tcp any any -> $HOME_NET 25 (msg:"SMTP connection attempt"; sid:1234;)
+#tcp 
+#alert tcp any any -> any any (msg:"tcp"; sid:1234;)
