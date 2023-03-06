@@ -1,5 +1,5 @@
 import os
-os.system("sudo apt install python3-tk -y")
+os.system("sudo apt install python3-tk")
 import tkinter as tk
 from tkinter import *
 from tkinter import ttk,messagebox,scrolledtext
