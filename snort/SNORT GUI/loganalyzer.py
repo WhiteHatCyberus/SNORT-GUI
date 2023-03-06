@@ -3,7 +3,7 @@ import re
 import tkinter as tk
 from tkinter import filedialog
 
-filename=filedialog.askopenfilename()
+filename=filedialog.askopenfilename(initialdir='/etc/snort/logs/', title='Select Alert')
 tcp_count = 0
 icmp_count = 0
 ip_count = 0
