@@ -16,7 +16,7 @@ def run_snort():
     datetime_string = datetime.datetime.now().strftime("%d-%m-%y@%H.%M.%S")
     new_folderpath='/etc/snort/logs/'+datetime_string
     os.system('sudo mkdir '+new_folderpath)
-    os.system('sudo snort -A console -A fast -q -c /etc/snort/ids.conf -i wlo1 -l '+new_folderpath)
+    os.system('sudo snort -A console -A fast -q -c /etc/snort/ids.conf -i enp0s8 -l '+new_folderpath)
 
 
 if not os.path.exists(foldername):
