@@ -45,13 +45,6 @@ def run_snort():
     os.system('sudo mkdir '+new_folderpath)
     os.system('sudo snort -A console -A fast -q -c /etc/snort/sleety.conf -i enp0s8 -l '+new_folderpath)
 
-# Create the Tkinter window
-window = tk.Tk()
-window.title("Snort Output")
-
-# Create a text widget to display the output
-output_text = tk.Text(window)
-output_text.pack()
 def exit_app():
     if messagebox.askokcancel(title='Exit', message='Are you sure?'):
         root.destroy()
