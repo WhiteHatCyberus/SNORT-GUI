@@ -22,6 +22,7 @@ else:
     def run_commands():
         button1.place_forget()
         button.place(x=30,y=80)
+        message_label['text']='Installation in progress...'
         with open('requirements.txt','r') as f:
             commands = f.readlines()
 
@@ -33,9 +34,12 @@ else:
             os.system(command)
             progress_bar['value']=i+1
             snort.update()
+        button['text']='Download Completed!'
+        
         with open('.setup.conf','w') as f:
             f.write("This is a configuration file to tell the wizard a first time installation")
             
+        
         result=messagebox.askyesno('Installation complete','Yes will start the GUI shortly')
         if result==True:
             snort.destroy()
