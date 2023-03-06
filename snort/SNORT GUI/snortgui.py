@@ -3,6 +3,7 @@ import subprocess
 import tkinter as tk
 from tkinter import messagebox, filedialog
 from PIL import ImageTk, Image
+import datetime
 
 # create the main window
 root = tk.Tk()
@@ -31,21 +32,26 @@ def open_files():
         subprocess.run(['sudo', 'gedit', filename])
 
 def run_ids():
+    foldername='/etc/snort/logs'
+    if not os.path.exists(foldername):
+        os.system('sudo mkdir '+foldername)
+        run_snort()
+    else:
+        run_snort()
 
-    # Execute the Linux terminal command
-    output = subprocess.check_output(['sudo', 'snort', '-A', 'console', '-A', 'fast', '-q', '-c', '/etc/snort/sleety.conf', '-i', 'enp0s8','-l', '/etc/snort/logs/test'])
+def run_snort():
+    datetime_string = datetime.datetime.now().strftime("%d-%m-%y@%H.%M.%S")
+    new_folderpath='/etc/snort/logs/'+datetime_string
+    os.system('sudo mkdir '+new_folderpath)
+    os.system('sudo snort -A console -A fast -q -c /etc/snort/sleety.conf -i enp0s8 -l '+new_folderpath)
 
-    # Convert the byte string to a regular string
-    output_str = output.decode('utf-8')
+# Create the Tkinter window
+window = tk.Tk()
+window.title("Snort Output")
 
-    # Create a Tkinter Text widget to display the output
-    text_widget = tk.Text(root)
-    text_widget.insert(tk.END, output_str)
-    text_widget.pack()
-
-    # Run the Tkinter event loop
-    root.mainloop()
-
+# Create a text widget to display the output
+output_text = tk.Text(window)
+output_text.pack()
 def exit_app():
     if messagebox.askokcancel(title='Exit', message='Are you sure?'):
         root.destroy()
