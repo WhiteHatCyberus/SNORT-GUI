@@ -133,17 +133,20 @@ def on_click(event):
                         window.geometry("600x400")
                         
                         # Get the selected wedge index
+                        # Get the selected wedge index
                         if event.inaxes == ax2:
                             for i, wedge in enumerate(wedges2):
                                 cont, ind = wedge.contains(event)
-                        print(dest_port_number)
+                                if cont:
+                                    dest_port_number = sorted(dest_port_counts.keys())[i]
+                                    break
                         
                         # Create a text box to display the details
                         text_box1 = tk.Text(window, height=40, width=80)
                         text_box1.pack()
                         with open(filename, 'r') as file:
                             for line in file:
-                                if "{%s}" % protocol in line and re.findall(r"-> \S+:(\d+)", line)==labels[i]:
+                                if "{%s}" % protocol in line and re.findall(r"-> \S+:(\d+)", line)==[dest_port_number]:
                                     time_tag = re.findall(r"\d{2}/\d{2}-\d{2}:\d{2}:\d{2}\.\d+", line)
                                     if time_tag:
                                         time_tag = time_tag[0]
