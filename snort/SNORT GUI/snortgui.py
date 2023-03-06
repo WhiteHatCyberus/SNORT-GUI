@@ -31,11 +31,28 @@ def open_files():
         subprocess.run(['sudo', 'gedit', filename])
 
 def run_ids():
-    pass
+
+    # Execute the Linux terminal command
+    output = subprocess.check_output(['sudo', 'snort', '-A', 'console', '-A', 'fast', '-q', '-c', '/etc/snort/sleety.conf', '-i', 'enp0s8','-l', '/etc/snort/logs/test'])
+
+    # Convert the byte string to a regular string
+    output_str = output.decode('utf-8')
+
+    # Create a Tkinter Text widget to display the output
+    text_widget = tk.Text(root)
+    text_widget.insert(tk.END, output_str)
+    text_widget.pack()
+
+    # Run the Tkinter event loop
+    root.mainloop()
 
 def exit_app():
     if messagebox.askokcancel(title='Exit', message='Are you sure?'):
         root.destroy()
+
+def log_analyser():
+    subprocess.run(['sudo', 'python3','loganalyzer.py'])
+
 
 # create the buttons
 button_width, button_height = 20, 2
@@ -46,17 +63,22 @@ button_active_bg, button_active_fg = '#f00', '#fff'
 generate_button = tk.Button(root, width=button_width, height=button_height, text='GENERATE RULES', font=button_font,
                             bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
                             activeforeground=button_active_fg, command=generate_rules)
-generate_button.place(x=45, y=150)
+generate_button.place(x=45, y=100)
 
 open_button = tk.Button(root, width=button_width, height=button_height, text='OPEN FILES', font=button_font,
                         bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
                         activeforeground=button_active_fg, command=open_files)
-open_button.place(x=45, y=300)
+open_button.place(x=45, y=225)
+
+run_button = tk.Button(root, width=button_width, height=button_height, text='OPEN LOG ANALYZER', font=button_font,
+                       bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
+                       activeforeground=button_active_fg, command=log_analyser)
+run_button.place(x=45, y=350)
 
 run_button = tk.Button(root, width=button_width, height=button_height, text='RUN IDS', font=button_font,
                        bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
                        activeforeground=button_active_fg, command=run_ids)
-run_button.place(x=45, y=450)
+run_button.place(x=45, y=475)
 
 # create the menu bar
 menu_bar = tk.Menu(root)
