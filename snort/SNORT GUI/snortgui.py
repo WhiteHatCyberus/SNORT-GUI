@@ -32,18 +32,7 @@ def open_files():
         subprocess.run(['sudo', 'gedit', filename])
 
 def run_ids():
-    foldername='/etc/snort/logs'
-    if not os.path.exists(foldername):
-        os.system('sudo mkdir '+foldername)
-        run_snort()
-    else:
-        run_snort()
-
-def run_snort():
-    datetime_string = datetime.datetime.now().strftime("%d-%m-%y@%H.%M.%S")
-    new_folderpath='/etc/snort/logs/'+datetime_string
-    os.system('sudo mkdir '+new_folderpath)
-    os.system('sudo snort -A console -A fast -q -c /etc/snort/sleety.conf -i enp0s8 -l '+new_folderpath)
+    os.system('sudo python3 run_ids.py')
 
 def exit_app():
     if messagebox.askokcancel(title='Exit', message='Are you sure?'):
