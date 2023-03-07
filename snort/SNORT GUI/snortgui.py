@@ -16,6 +16,7 @@ canvas = tk.Canvas(root, width=1200, height=650)
 canvas.pack(fill=tk.BOTH, expand=True)
 
 # load and display the background image
+
 img = Image.open('snort.jpg')
 img = img.resize((1200, 650), Image.ANTIALIAS)
 img = ImageTk.PhotoImage(img)
@@ -41,6 +42,8 @@ def exit_app():
 def log_analyser():
     subprocess.run(['sudo', 'python3','loganalyzer.py'])
 
+def about():
+    os.system("python3 about.py")
 
 # create the buttons
 button_width, button_height = 20, 2
@@ -68,13 +71,16 @@ run_button = tk.Button(root, width=button_width, height=button_height, text='RUN
                        activeforeground=button_active_fg, command=run_ids)
 run_button.place(x=45, y=475)
 
+
 # create the menu bar
 menu_bar = tk.Menu(root)
 
 file_menu = tk.Menu(menu_bar, tearoff=0)
+file_menu.add_command(label='Help', )
 file_menu.add_command(label='Exit', command=exit_app)
-file_menu.add_command(label='About')
-menu_bar.add_cascade(label='Files', menu=file_menu)
-
+menu_bar.add_cascade(label='Option', menu=file_menu)
+file_menu1 = tk.Menu(menu_bar, tearoff=0)
+file_menu1.add_command(label='SNORT-GUI', command=about)
+menu_bar.add_cascade(label='About', menu=file_menu1)
 root.config(menu=menu_bar)
 root.mainloop()
