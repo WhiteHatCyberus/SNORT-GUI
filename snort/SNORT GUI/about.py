@@ -38,11 +38,11 @@ canvas.create_image(0, 0, image=img, anchor=tk.NW)
 
 ###################################################3
 
-T=scrolledtext.ScrolledText(snort,width=69, height=10)
+T=scrolledtext.ScrolledText(snort,width=69, height=15)
 T.insert(tk.INSERT,tc)
 T.configure(state="disabled")
 # place the text widget on top of the image
-canvas.create_window( 10, 60, anchor=tk.NW, window=T)
+canvas.create_window( 10, 10, anchor=tk.NW, window=T)
 
 snort.resizable(False, False)
 snort.mainloop()
