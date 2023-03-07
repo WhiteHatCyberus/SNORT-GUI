@@ -46,7 +46,8 @@ sudo python3 installerwizard.py
 
    Figure 1.1: Terms and Conditions
    
-   ![Installing resources](https://user-images.githubusercontent.com/70995581/219879977-fdff653f-aadb-471c-906d-fbcddf09b904.png)
+   ![Installing resources](https://user-images.githubusercontent.com/70995581/223300214-8474d391-d4cb-4bec-9554-4b23e2510923.png)
+
 
    Figure 1.2: Installing resources
 
@@ -56,13 +57,19 @@ sudo python3 installerwizard.py
 sudo python3 snortgui.py
 ```
 
-![SNORT GUI main menu](https://user-images.githubusercontent.com/70995581/219880197-d4724122-5e65-4458-b8f9-134ec2dceb36.png)
+![SNORT GUI main menu](https://user-images.githubusercontent.com/70995581/223300378-1235b879-6d70-4d4c-838a-c57557107662.png)
+
 
 Figure 2.1: SNORT GUI main menu
 
-![Rule Generator GUI](https://user-images.githubusercontent.com/70995581/219880207-72a86849-e3cf-4fa1-a5bd-c1d9d59a7c56.png)
+![Rule Generator GUI](https://user-images.githubusercontent.com/70995581/223300719-4b603ed9-a5a3-482c-b409-6612a8f9b8e1.png)
+
 
 Figure 2.2: Rule Generator GUI
+
+![Log Analyzer](https://user-images.githubusercontent.com/70995581/223300847-fb89a2ed-4106-41f7-bf3d-f3d0ce06c2da.png)
+
+Figure 2.3: Log Analyzer Tool
 
 ## Connect with me
 
