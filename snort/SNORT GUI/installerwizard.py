@@ -30,6 +30,8 @@ Manipulating this application for malicious purposes is not entertained.
 snort=Tk()
 snort.geometry('600x420+1+1')
 snort.title('Terms and Conditions')
+
+##############################################################################################3333
 #functions
 def agree():
     result=messagebox.askokcancel("Agreement Confirmation","By clicking 'OK', you agree with the t&c")
@@ -40,7 +42,7 @@ def disagree():
     result=messagebox.askyesno("Disagreement Confirmation","To ensure proper functioning of application, accept the t&c")
     if(result==False):
         snort.destroy()
-
+#############################################################################################
 #text
 T=scrolledtext.ScrolledText(snort,width=70, height=20)
 T.insert(tk.INSERT,tc)
