@@ -27,3 +27,12 @@ Firstly lets configure the virtual machines, for this project I've taken the lib
 
 ## TESTING
 Now your isolated environment is ready, to check whether the connection is successfully established, use ```ping```.
+
+## THE ATTACKER INTERFACE
+![Attacker](https://user-images.githubusercontent.com/70995581/223293146-e2ff573f-7b80-4b3c-83e8-5a362d4a107f.png)
+
+It consists of 4 components:
+- Attack Type: Since we're drawing comparison with the NSL-KDD and CIC IDS 2018 Datasets, it consists of 'Probe','U2R','R2L', and 'DoS'.
+- Target IP: Enter the Target system IP
+- Check Connection: This checks if the attack system is connected to the target.
+- Exploit: Executes the attack on the target machine.
