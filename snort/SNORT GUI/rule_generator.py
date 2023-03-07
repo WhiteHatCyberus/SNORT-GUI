@@ -515,7 +515,7 @@ filemenu.add_command(label="Open",command=mOpen)
 filemenu.add_command(label="Save as")
 #filemenu.add_command(label="Colour", command=mColor)
 filemenu.add_command(label="Exit", command=mQuit)
-menubar.add_cascade(label="Files",menu=filemenu)
+menubar.add_cascade(label="Options",menu=filemenu)
 
 snort.config(menu=menubar)
 
