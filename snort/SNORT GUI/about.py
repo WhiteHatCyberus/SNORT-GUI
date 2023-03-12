@@ -3,7 +3,7 @@ from tkinter import ttk, scrolledtext
 from PIL import ImageTk, Image
 snort=tk.Tk()
 snort.title('ABOUT')
-snort.geometry('600x500')
+snort.geometry('600x515')
 tc='''
  SNORT-GUI is a Open Source Application developed by WhiteHatCyberus  for enterprise intrusion detection systems and cyber-forensic        analysis.
  --------------------------------------------------------------------
@@ -26,23 +26,23 @@ tc='''
 '''
 ################################3
 # create a canvas to display the background image
-canvas = tk.Canvas(snort, width=600, height=500)
+canvas = tk.Canvas(snort, width=600, height=515)
 canvas.pack(fill=tk.BOTH, expand=True)
 
 # load and display the background image
 
-img = Image.open('snort_about.jpg')
-img = img.resize((600, 500), Image.ANTIALIAS)
+img = Image.open('images/snort_about.jpg')
+img = img.resize((600, 515), Image.ANTIALIAS)
 img = ImageTk.PhotoImage(img)
 canvas.create_image(0, 0, image=img, anchor=tk.NW)
 
 ###################################################3
 
-T=scrolledtext.ScrolledText(snort,width=69, height=15)
+T=scrolledtext.ScrolledText(snort,width=69, height=28)
 T.insert(tk.INSERT,tc)
-T.configure(state="disabled")
+T.config(state='disabled')
 # place the text widget on top of the image
-canvas.create_window( 10, 10, anchor=tk.NW, window=T)
+canvas.create_window( 15, 10, anchor=tk.NW, window=T)
 
 snort.resizable(False, False)
 snort.mainloop()
