@@ -15,7 +15,7 @@ This research project implements a Network Intrusion Detection System, comparing
 
 ![Research Architecture](https://user-images.githubusercontent.com/70995581/209061112-3de8e0c7-07bd-4f7d-bb74-0c05727c52ec.PNG)
 
-> **This is currently in progress, so I will be updating this repository.**
+> **Warning** This is currently in progress, so I will be updating this repository.
 
 ## The SNORT GUI v1.0.0
 
