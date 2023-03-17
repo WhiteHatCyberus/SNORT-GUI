@@ -3,10 +3,10 @@
 The simulation phase is essential to present the real time analysis and working of our parent application
 
 ## Table of Contents
-1. [Pre-Requisites](#pre-requisites)
-2. [Configuration](#configuration)
-3. [Testing](#testing)
-4. [The Attacker Interface](#the-attacker-interface)
+1. [Pre-Requisites](#1.-pre-requisites)
+2. [Configuration](#2.-configuration)
+3. [Testing](#3.-testing)
+4. [The Attacker Interface](#4.-the-attacker-interface)
 
 ### 1. PRE-REQUISITES
 What you will need
