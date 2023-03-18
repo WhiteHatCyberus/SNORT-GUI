@@ -23,4 +23,4 @@ ifconfig
 ```
 <img width="374" alt="ifconfig" src="https://user-images.githubusercontent.com/70995581/220833040-55b49909-4241-41ac-a80c-2ff7041a963f.png"></br>
 #### here enp0s3, enp0s8 and lo are network interfaces
-##### disclaimer: it may vary with the OS used, enp0s3 and enp0s8 is used to represent the network connection in a ubuntu system, and in some instances your network interface may be eth0<br>
+> *disclaimer*: it may vary with the OS used, enp0s3 and enp0s8 is used to represent the network connection in a ubuntu system, and in some instances your network interface may be eth0<br>
