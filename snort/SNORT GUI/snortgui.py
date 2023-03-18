@@ -3,7 +3,6 @@ import subprocess
 import tkinter as tk
 from tkinter import messagebox, filedialog
 from PIL import ImageTk, Image
-import datetime
 
 # create the main window
 root = tk.Tk()
