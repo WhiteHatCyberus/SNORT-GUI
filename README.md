@@ -71,7 +71,7 @@ Figure 2.2: Rule Generator GUI
 
 Figure 2.3: Log Analyzer Tool
 
-> *Note*: Will be releasing the documentation for the last module `run ids` very soon, primary testing has been completed, but we need to incorporate a flexible system to run snort in any Ubuntu or Linux distro with snort installed, based on network interfaces, configuration file, log file path and mode of detection  to be used.
+> **Note**: Will be releasing the documentation for the last module `run ids` very soon, primary testing has been completed, but we need to incorporate a flexible system to run snort in any Ubuntu or Linux distro with snort installed, based on network interfaces, configuration file, log file path and mode of detection  to be used.
 
 ## Connect with me
 
