@@ -42,7 +42,7 @@ def log_analyser():
     subprocess.run(['sudo', 'python3','loganalyzer.py'])
 
 def about():
-    os.system("python3 about.py")
+    os.system("python3 info/about.py")
 
 # create the buttons
 button_width, button_height = 20, 2
