@@ -1,0 +1,8 @@
+sudo apt install python3 -y
+sudo apt install python3-tk -y
+sudo apt install python3-pil python3-pil.imagetk -y
+sudo apt install gedit -y
+sudo apt install snort -y
+sudo apt install python3-matplotlib -y
+pip install keyring
+pip install psutil
