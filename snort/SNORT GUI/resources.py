@@ -23,7 +23,7 @@ else:
         button1.place_forget()
         button.place(x=30,y=80)
         message_label['text']='Installation in progress...'
-        with open('requirements.txt','r') as f:
+        with open('info/requirements.txt','r') as f:
             commands = f.readlines()
 
         progress_bar['maximum'] = len(commands)
