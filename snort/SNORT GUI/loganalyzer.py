@@ -1,26 +1,38 @@
 import matplotlib.pyplot as plt
 import re
 import tkinter as tk
-from tkinter import filedialog
+from tkinter import filedialog, messagebox
 
-filename=filedialog.askopenfilename(initialdir='/etc/snort/logs/', title='Select Alert')
-tcp_count = 0
-icmp_count = 0
-ip_count = 0
-udp_count = 0
-total_count = 0
-
+# open the file
+filename = filedialog.askopenfilename(initialdir='/etc/snort/logs/', title='Select Alert')
 with open(filename, 'r') as file:
-    for line in file:
-        total_count += 1
-        if "{TCP}" in line:
-            tcp_count += 1
-        if "{ICMP}" in line:
-            icmp_count += 1
-        if "{IP}" in line:
-            ip_count += 1
-        if "{UDP}" in line:
-            udp_count += 1
+    # read the contents of the file
+    file_contents = file.read()
+
+    # check if the file is empty
+    if not file_contents:
+        # if the file is empty, display an error message
+        root = tk.Tk()
+        root.withdraw()
+        messagebox.showerror("Error", "No Alerts detected!")
+        exit()
+    else:
+        # if the file is not empty, iterate through each line
+        tcp_count = 0
+        icmp_count = 0
+        ip_count = 0
+        udp_count = 0
+        total_count = 0
+        for line in file_contents.split('\n'):
+            total_count += 1
+            if "{TCP}" in line:
+                tcp_count += 1
+            if "{ICMP}" in line:
+                icmp_count += 1
+            if "{IP}" in line:
+                ip_count += 1
+            if "{UDP}" in line:
+                udp_count += 1
 
 labels = []
 counts = []
@@ -133,12 +145,11 @@ def on_click(event):
                         window.geometry("600x400")
                         
                         # Get the selected wedge index
-                        # Get the selected wedge index
                         if event.inaxes == ax2:
                             for i, wedge in enumerate(wedges2):
                                 cont, ind = wedge.contains(event)
                                 if cont:
-                                    dest_port_number = sorted(dest_port_counts.keys())[i]
+                                    dest_port_number = list(dest_port_counts.keys())[i]
                                     break
                         
                         # Create a text box to display the details
@@ -168,14 +179,19 @@ def on_click(event):
                     # Plot the doughnut chart
                     if dest_port_counts:
                         fig2, ax2 = plt.subplots()
-                        wedges2, texts2, autotexts2 = ax2.pie(dest_port_counts.values(), labels=dest_port_counts.keys(), wedgeprops={'width': 0.2, 'edgecolor': 'w'}, autopct='%1.1f%%')
-                        plt.title("Destination Port Numbers for %s Protocol" % protocol, fontweight="bold", fontsize=16)
-                        if protocol == "ICMP":
-                            plt.legend(loc="best")
-                        fig2.canvas.mpl_connect('motion_notify_event', on_hover_doughnut)
-                        fig2.canvas.mpl_connect('button_press_event', lambda event: on_hover_doughnut(event))
-                        fig2.canvas.mpl_connect('button_press_event', on_click_doughnut)
+                        counts2 = list(dest_port_counts.values())
+                        labels2 = list(dest_port_counts.keys())
+                        wedges2, texts2, autotexts2 = ax2.pie(counts2, wedgeprops={'width': 0.2, 'edgecolor': 'w'}, autopct='%1.1f%%')
+                        ax2.legend(wedges2, labels2, title="Destination Ports", loc="center left", bbox_to_anchor=(1, 0, 0.5, 1))
+                        plt.setp(autotexts2, size=12)
+
+                        # Add hover and click events to the doughnut chart
+                        cid_hover = fig2.canvas.mpl_connect('motion_notify_event', on_hover_doughnut)
+                        cid_click = fig2.canvas.mpl_connect('button_press_event', on_click_doughnut)
+
+                        # Show the doughnut chart
                         plt.show()
+
                     else:
                         print("No destination port numbers found for %s protocol." % protocol)
                 break
