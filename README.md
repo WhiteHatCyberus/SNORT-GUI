@@ -69,7 +69,9 @@ Figure 2.1: SNORT GUI main menu
 
 Figure 2.2: Rule Generator GUI
 
-![Log Analyzer](https://user-images.githubusercontent.com/70995581/223300847-fb89a2ed-4106-41f7-bf3d-f3d0ce06c2da.png)
+
+![Log Analyzer](https://user-images.githubusercontent.com/70995581/227723225-e67f63cb-6b2d-4ce8-b42d-874ff8fcc381.png)
+
 
 Figure 2.3: Log Analyzer Tool
 
