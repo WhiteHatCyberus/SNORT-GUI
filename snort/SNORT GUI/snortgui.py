@@ -6,7 +6,7 @@ from PIL import ImageTk, Image
 
 # create the main window
 root = tk.Tk()
-root.title('Intrusion Detection System - Made By WhiteHatCyberus')
+root.title('SNORT IDS GUI - w/❤ by WhiteHatCyberus')
 root.geometry('1200x650+1+1')
 root.resizable(False, False)
 
@@ -44,6 +44,8 @@ def log_analyser():
 def about():
     os.system("python3 info/about.py")
 
+def help():
+    messagebox.showerror("Under construction","The help centre is under development, coming soon...")
 # create the buttons
 button_width, button_height = 20, 2
 button_font = ('TkDefaultFont', 15)
@@ -55,17 +57,17 @@ generate_button = tk.Button(root, width=button_width, height=button_height, text
                             activeforeground=button_active_fg, command=generate_rules)
 generate_button.place(x=45, y=100)
 
-open_button = tk.Button(root, width=button_width, height=button_height, text='OPEN FILES', font=button_font,
+open_button = tk.Button(root, width=button_width, height=button_height, text='CONFIGURATION FILES', font=button_font,
                         bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
                         activeforeground=button_active_fg, command=open_files)
 open_button.place(x=45, y=225)
 
-run_button = tk.Button(root, width=button_width, height=button_height, text='OPEN LOG ANALYZER', font=button_font,
+run_button = tk.Button(root, width=button_width, height=button_height, text='LOG ANALYZER', font=button_font,
                        bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
                        activeforeground=button_active_fg, command=log_analyser)
 run_button.place(x=45, y=350)
 
-run_button = tk.Button(root, width=button_width, height=button_height, text='RUN IDS', font=button_font,
+run_button = tk.Button(root, width=button_width, height=button_height, text='RUN SNORT', font=button_font,
                        bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
                        activeforeground=button_active_fg, command=run_ids)
 run_button.place(x=45, y=475)
@@ -75,7 +77,7 @@ run_button.place(x=45, y=475)
 menu_bar = tk.Menu(root)
 
 file_menu = tk.Menu(menu_bar, tearoff=0)
-file_menu.add_command(label='Help', )
+file_menu.add_command(label='Help',command=help )
 file_menu.add_command(label='Exit', command=exit_app)
 menu_bar.add_cascade(label='Option', menu=file_menu)
 file_menu1 = tk.Menu(menu_bar, tearoff=0)
