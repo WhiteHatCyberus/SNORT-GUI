@@ -6,6 +6,7 @@ import tkinter
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import psutil
+filename=""
 
 if not os.path.exists('/etc/snort/ids.conf'):
     os.system('sudo cp ~/Desktop/SNORT-GUI/snort/ids.conf /etc/snort/')
@@ -17,18 +18,22 @@ foldername = '/etc/snort/logs'
 
 
 def run_snort(duration_secs, process_lock, sudo_password, filename, interface_var):
-    with process_lock:
-        datetime_string = datetime.datetime.now().strftime("%d-%m-%y@%H.%M.%S")
-        new_folderpath = f'{foldername}/{datetime_string}'
-        os.system(f'sudo mkdir {new_folderpath}')
-        '''
-        command="sudo snort -A console -A fast -q -c "+filename+" -i "+interface_var.get()+" -l "+new_folderpath
-        print(command)
-        '''
-        command = f'sudo -S timeout {duration_secs} snort -A console -A fast -q -c {filename} -i {interface_var.get()} -l {new_folderpath}'
-        snort_process = subprocess.Popen(command, shell=True, stdin=subprocess.PIPE, preexec_fn=os.setsid)
-        snort_process.stdin.write(sudo_password.encode('utf-8') + b'\n')
-        snort_process.stdin.flush()
+    if duration_secs>0:
+        if filename.endswith('.conf'):
+            if interface_var.get():
+                with process_lock:
+                    datetime_string = datetime.datetime.now().strftime("%d-%m-%y@%H.%M.%S")
+                    new_folderpath = f'{foldername}/{datetime_string}'
+                    os.system(f'sudo mkdir {new_folderpath}')
+                    '''
+                    command="sudo snort -A console -A fast -q -c "+filename+" -i "+interface_var.get()+" -l "+new_folderpath
+                    print(command)
+                    '''
+                    command = f'sudo -S timeout {duration_secs} snort -A console -A fast -q -c {filename} -i {interface_var.get()} -l {new_folderpath}'
+                    snort_process = subprocess.Popen(command, shell=True, stdin=subprocess.PIPE, preexec_fn=os.setsid)
+                    snort_process.stdin.write(sudo_password.encode('utf-8') + b'\n')
+                    snort_process.stdin.flush()
+                    
 
 def stop_snort(window, sudo_password):
     password_window = tk.Tk()
@@ -63,7 +68,7 @@ def stop_snort(window, sudo_password):
 
 def show_snort_window():
     input_window = tk.Tk()
-    input_window.title('Enter Snort Duration')
+    input_window.title('Run SNORT')
     input_window.geometry('350x300')
 
     label = tk.Label(input_window, text='Enter the number of hours to run Snort:')
@@ -95,7 +100,8 @@ def show_snort_window():
 
     def select_file():
         global filename
-        filename = filedialog.askopenfilename()
+        filename = filedialog.askopenfilename(initialdir='/etc/snort', title='Select File',
+                                          filetypes=(('Configuration Files', '*.conf'),))
         if filename:
             file_name = filename.split('/')[-1]  
             file_label.config(text=file_name)
@@ -107,36 +113,52 @@ def show_snort_window():
 
 
     def start_snort():
-        duration_secs = int(float(entry.get()) * 60 * 60)
+        
+        time=entry.get()    #time entered
+        try:
+        # check if any variable is missing
+            if time and interface_var and filename !="":
+                try:
+                    time = float(time)
+                    if time >= 0 and (time.is_integer() or time != int(time)):
+                        duration_secs = int(time * 60 * 60)
+                        input_window.destroy()
+                        # Prompt user for sudo password
+                        sudo_password = tkinter.simpledialog.askstring("Password", "Enter your sudo password:", show='*')
 
-        input_window.destroy()
+                        # Check if password is correct
+                        p = subprocess.run(['sudo', '-S', 'true'], input=bytes(sudo_password + '\n', 'utf-8'), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                        if p.returncode != 0:
+                            messagebox.showerror("Incorrect Password", "The password you entered is incorrect. Please try again.")
+                            return
 
-        # Prompt user for sudo password
-        sudo_password = tkinter.simpledialog.askstring("Password", "Enter your sudo password:", show='*')
+                        # Start snort
+                        process_lock = threading.Lock()
+                        snort_thread = threading.Thread(target=run_snort, args=(duration_secs, process_lock, sudo_password,filename,interface_var))
+                        snort_thread.start()
 
-        # Check if password is correct
-        p = subprocess.run(['sudo', '-S', 'true'], input=bytes(sudo_password + '\n', 'utf-8'), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        if p.returncode != 0:
-            messagebox.showerror("Incorrect Password", "The password you entered is incorrect. Please try again.")
-            return
+                        status_window = tk.Tk()
+                        status_window.title("Snort is Running")
 
-        # Start snort
-        process_lock = threading.Lock()
-        snort_thread = threading.Thread(target=run_snort, args=(duration_secs, process_lock, sudo_password,filename,interface_var))
-        snort_thread.start()
+                        status_label = tk.Label(status_window, text="Snort is currently running.")
+                        status_label.pack(padx=20, pady=20)
 
-        status_window = tk.Tk()
-        status_window.title("Snort is Running")
+                        status_button = tk.Button(status_window, text="Stop Snort", command=lambda: stop_snort(status_window, sudo_password))
+                        status_button.pack(padx=20, pady=10)
 
-        status_label = tk.Label(status_window, text="Snort is currently running.")
-        status_label.pack(padx=20, pady=20)
 
-        status_button = tk.Button(status_window, text="Stop Snort", command=lambda: stop_snort(status_window, sudo_password))
-        status_button.pack(padx=20, pady=10)
-    
+                    else:
+                        messagebox.showerror("Error", "Enter a valid time")
+                except ValueError:
+                    messagebox.showerror("Error", "Enter a valid time")
+            else:
+                messagebox.showerror("Error", "Enter Values") 
+        except ValueError:
+            messagebox.showerror("Error", "Enter Values")        
+
     button_active_bg, button_active_fg = '#f00', '#fff'
     start_button = tk.Button(input_window, text="Start Snort",relief='groove', cursor='hand2', activebackground=button_active_bg,
-                       activeforeground=button_active_fg,command=start_snort,width=40,height=5)
+                             activeforeground=button_active_fg,command=start_snort,width=40,height=5)
     start_button.place(x=1,y=200)
     input_window.resizable(False,False)
     input_window.mainloop()
