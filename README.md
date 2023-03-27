@@ -41,7 +41,7 @@ The SNORT GUI main program consists of:
 For first-time installation, run:
 
 ```bash
-sudo python3 installerwizard.py
+sudo python3 installer.py
 ```
 
    ![Terms and Condition](https://user-images.githubusercontent.com/70995581/219879971-e67a8a21-962b-4f18-ad63-8813ba5f5b6a.png)
