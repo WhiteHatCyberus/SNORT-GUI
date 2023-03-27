@@ -71,7 +71,7 @@ def stop_snort(window, sudo_password):
 def show_snort_window():
     input_window = tk.Tk()
     input_window.title('Run SNORT')
-    input_window.geometry('350x300')
+    input_window.geometry('495x300')
 
     label = tk.Label(input_window, text='Enter the number of hours to run Snort:')
     label.grid(row=0, column=0, padx=10, pady=15)
@@ -160,8 +160,8 @@ def show_snort_window():
 
     button_active_bg, button_active_fg = '#f00', '#fff'
     start_button = tk.Button(input_window, text="Start Snort",relief='groove', cursor='hand2', activebackground=button_active_bg,
-                             activeforeground=button_active_fg,command=start_snort,width=40,height=5)
-    start_button.place(x=1,y=200)
+                             activeforeground=button_active_fg,command=start_snort,width=58,height=5)
+    start_button.place(x=3,y=200)
     input_window.resizable(False,False)
     input_window.mainloop()
 
