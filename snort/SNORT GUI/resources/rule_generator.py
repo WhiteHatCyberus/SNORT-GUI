@@ -2,10 +2,7 @@ import os,subprocess
 import tkinter as tk
 from tkinter import *
 from tkinter import filedialog
-from tkinter.filedialog import askopenfile
 from tkinter import messagebox
-#from tkinter import filedialog
-from tkinter.messagebox import askokcancel
 
 with open('resources/temp/admin.pass', 'r') as file:
     sudo_passwd = file.read()
@@ -22,7 +19,7 @@ try:
             snort.geometry('1200x650+1+1')
 
             filename="/etc/snort/rules/Untitled.rules"
-
+            mylabel4=Label()
             #Title of tkinter
             snort.title('Intrusion Detection System - Made By WhiteHatCyberus')
 
@@ -81,7 +78,6 @@ try:
 
             def mOpen():
                 myopen=filedialog.askopenfilename(initialdir='/etc/snort/rules/', title='Select .rules')
-                mylabel4=Label()
                 
                 if myopen:
                     global filename
@@ -109,7 +105,7 @@ try:
                     filename = myopen
                     mylabel4.config(text=filename)
                     mylabel4.pack()
-                    return
+
             ##########################################################################################	
             # Rule Header Area
             actions=Label(frame,text='Actions',fg='black',font=('Verdana', 8)).grid(row=1,column=0,sticky=W)
