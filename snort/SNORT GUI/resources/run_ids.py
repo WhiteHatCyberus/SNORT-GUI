@@ -9,12 +9,13 @@ filename=""
 
 with open('resources/temp/admin.pass', 'r') as file:
     sudo_passwd = file.read()
-
+'''
 if not os.path.exists('/etc/snort/ids.conf'):
     os.system('sudo cp ~/Desktop/SNORT-GUI/snort/ids.conf /etc/snort/')
 
 if not os.path.exists('/etc/snort/rules/ids.rules'):
     os.system('sudo cp ~/Desktop/SNORT-GUI/snort/rules/ids.rules /etc/snort/rules/')
+'''
 
 foldername = '/etc/snort/logs'
 
