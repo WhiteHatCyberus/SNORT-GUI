@@ -6,7 +6,6 @@ Primarily, SNORT runs by predefined rules set by the administrator, if a rule ma
 ### WHAT HAVE WE DONE HERE?
 To facilitate new users and sys admins to understand the dynamic nature of SNORT, we intend to make a Graphical User Interface 
 (GUI) to write rules and execute the IDS in the backend while maintaining User friendliness in the frontend.<br>
-<br>
 
 # SNORT Documentation:
 Primarily snort contains a .conf (configuration file) that indexes to a set of rule files. learn documentation [here](http://books.gigatux.nl/mirror/snortids/0596006616/snortids-CHP-5.html)
