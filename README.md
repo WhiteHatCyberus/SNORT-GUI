@@ -30,7 +30,7 @@ The SNORT GUI main program consists of:
 ```bash
 snort -A console -A fast -q -i <network_interface> -c <configuration_file> -l <log_folderpath>
 ```
->:heavy_check_mark::heavy_check_mark::heavy_check_mark::heavy_check_mark: Help: **Currently In Development** Help centre covers snort documentation, simulation guides, walkthroughs, snort rule formulation, basic attack and mitigation walkthroughs.
+>  :bangbang:  Help: **Currently In Development** covers snort documentation, simulation guides, walkthroughs, snort rule formulation, basic attack and mitigation walkthroughs.
 
 ### Pre-requisite
 
