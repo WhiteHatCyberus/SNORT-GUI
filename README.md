@@ -23,9 +23,14 @@ This research project implements a Network Intrusion Detection System, comparing
 
 The SNORT GUI main program consists of:
 
-- A rule generation tool that makes formulating rules faster.
-- Open `.rules` file
-- Provide help center.
+- SNORT Rule Generator: Open, Write, Save `.rules` files - **Pre-incident/Preparation**
+- Open Configuration Files: Manually Open `.conf` and `.rules` files - **Pre-incident/Preparation**
+- Alert Log Analyzer: Analyze SNORT alerts and distinguishing them by protocols and ports for ease of documentation for cyberforensics - **Post-incident/Forenisc Analysis**
+- Run SNORT: Runs the SNORT application in **Intrusion Detection System Mode**.
+```bash
+snort -A console -A fast -q -i <network_interface> -c <configuration_file> -l <log_folderpath>
+```
+>:heavy_check_mark::heavy_check_mark::heavy_check_mark::heavy_check_mark: Help: **Currently In Development** Help centre covers snort documentation, simulation guides, walkthroughs, snort rule formulation, basic attack and mitigation walkthroughs.
 
 ### Pre-requisite
 
@@ -33,8 +38,8 @@ The SNORT GUI main program consists of:
 
 ### Download
 
-1. Download the latest `snort.tar.gz` release (tag: v1.0) available in the "Releases" tab.
-2. Alternatively, download via Git, and access "snort/SNORT GUI/" for application files.
+1. Download the latest `snortgui.zip` release (tag: v1.1) available in the "Releases" tab.
+2. Alternatively, download via Git, and navigate to "snort/snortgui/" for application files.
 
 ### Installation
 
