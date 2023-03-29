@@ -4,7 +4,7 @@ This research project implements a Network Intrusion Detection System, comparing
 
 ## Table of Contents
 1. [Research Architecture](#research-architecture)
-2. [The SNORT GUI v1.0.0](#the-snort-gui-v100)
+2. [The SNORT GUI v1.1](#the-snort-gui-v11)
     * [Pre-requisite](#pre-requisite)
     * [Download](#download)
     * [Installation](#installation)
@@ -17,9 +17,9 @@ This research project implements a Network Intrusion Detection System, comparing
 
 > **Warning** This is currently in progress, so I will be updating this repository.
 
-## The SNORT GUI v1.0.0 
+## The SNORT GUI v1.1 
 
-> **STATUS: INCOMPLETE**
+> STATUS: :heavy_check_mark:
 
 The SNORT GUI main program consists of:
 
