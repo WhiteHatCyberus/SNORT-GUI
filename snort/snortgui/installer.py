@@ -26,23 +26,35 @@ while i!=1:
 
         tc='''
     You are using the SNORT GUI developed by White Hat Cyberus!
-    Developed by 4 students from Rajagiri School of Engineering and Technology . This is a Open Source Software, so feel free to check out the code.
+    Developed by 4 students from Rajagiri School of Engineering and 
+    Technology . This is a Open Source Software, so feel free to 
+    check out the code.
+    
     Github: https://github.com/WhiteHatCyberus
-    Disclaimer:
+    
+    ⚠ Disclaimer:
     To be used for personal, educational and enterprise purposes. 
 
     What is SNORT?  
-    SNORT is a Open Source Intrusion Detection System / Intrusion Prevention System maintained by Cisco Talos. 
+    SNORT is a Open Source Intrusion Detection System / Intrusion 
+    Prevention System maintained by Cisco Talos. 
 
-        T&C
-    ----------
+			T&C
+		  ---------
+		     
     1. Use this software at your own risk.
-    2. The authors of this software are not responsible for any damages caused by this software.
-    3. This software is provided "as is" without warranty of any kind, express or implied.
+    2. The authors of this software are not responsible for any 
+       damages caused by this software.
+    3. This software is provided "as is" without warranty of any 
+       kind, express or implied.
     4. By using this software, you agree to these terms and conditions.
 
-    Note: This application will monitor your network in real time and access your administrative directories. For proper functioning, run the application in 'sudo' mode.
-    Manipulating this application for malicious purposes is not entertained.
+    Note: This application will monitor your network in real time and 
+    access your administrative directories. For proper functioning, 
+    run the application in 'sudo' mode.
+    
+    ⚠ Manipulating this application for malicious purposes is not 
+    entertained.
 
         '''
         ####################
