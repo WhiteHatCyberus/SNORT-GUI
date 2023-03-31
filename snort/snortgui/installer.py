@@ -16,12 +16,12 @@ while i!=1:
                 exit()
     elif sudo_password:
         
-        os.system('mkdir resources/temp')
-        os.system('cp -r resources/alert .')
+        os.system('mkdir .resources/temp')
+        os.system('cp -r .resources/alert .')
         i=1
 
         # Write the password to a text file named "password.txt"
-        with open("resources/temp/admin.pass", "w") as f:
+        with open(".resources/temp/admin.pass", "w") as f:
             f.write(sudo_password)
 
         tc='''
@@ -40,7 +40,7 @@ while i!=1:
     Prevention System maintained by Cisco Talos. 
 
 			T&C
-		  ---------
+		     ---------
 		     
     1. Use this software at your own risk.
     2. The authors of this software are not responsible for any 
@@ -69,7 +69,7 @@ while i!=1:
             result=messagebox.askokcancel("Agreement Confirmation","By clicking 'OK', you agree with the t&c")
             if(result==True):
                 snort.destroy()
-                os.system("python3 resources/resources.py")
+                os.system("python3 .resources/resources.py")
                 
         def disagree():
             result=messagebox.askyesno("Disagreement Confirmation","To ensure proper functioning of application, accept the t&c")
