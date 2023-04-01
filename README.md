@@ -81,7 +81,17 @@ Figure 2.2: Rule Generator GUI
 
 Figure 2.3: Log Analyzer Tool
 
-> **Note**: Will be releasing the documentation for the last module `run ids` very soon, primary testing has been completed, but we need to incorporate a flexible system to run snort in any Ubuntu or Linux distro with snort installed, based on network interfaces, configuration file, log file path and mode of detection  to be used.
+3. Run SNORT IDS:
+
+![Run SNORT](https://user-images.githubusercontent.com/70995581/229308980-70b1c439-e640-4565-b068-a51da81da4fe.png)<br>
+
+Figure 3.1: Configuring SNORT
+
+![SNORT running](https://user-images.githubusercontent.com/70995581/229309060-e7671380-34dc-4e6c-891a-47423f8250ee.png)<br>
+
+Figure 3.2: Running SNORT
+
+> **Note**: SNORT GUI v1.1 features security patches and bug fixes, additionally running resources via downloading the repository will not work, make sure you download the latest stable release of `snortgui.zip` to run the application hassle free.
 
 ## Connect with me
 
