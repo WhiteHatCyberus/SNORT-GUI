@@ -82,7 +82,7 @@ try:
                     process.stdin.flush()
 
                 def about():
-                    command="python3 .resources/info/about.py"
+                    command="python3 .resources/about.py"
                     os.system(command)
 
                 def help():
