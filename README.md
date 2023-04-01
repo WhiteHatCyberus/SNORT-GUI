@@ -13,7 +13,8 @@ This research project implements a Network Intrusion Detection System, comparing
 
 ## Research Architecture
 
-![Research Architecture](https://user-images.githubusercontent.com/70995581/209061112-3de8e0c7-07bd-4f7d-bb74-0c05727c52ec.PNG)
+![Research Architecture](https://user-images.githubusercontent.com/70995581/229307468-1aa44b4f-0695-4f10-ba31-b71a0360c0ed.png)
+
 
 > **Warning** This is currently in progress, so I will be updating this repository.
 
