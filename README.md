@@ -83,7 +83,7 @@ Figure 2.3: Log Analyzer Tool
 
 3. Run SNORT IDS:
 
-![Run SNORT](https://user-images.githubusercontent.com/70995581/229308980-70b1c439-e640-4565-b068-a51da81da4fe.png)<br>
+![Run SNORT](https://user-images.githubusercontent.com/70995581/229309507-cb79f013-af93-4245-b6be-2e9d5fd4d5f3.png)<br>
 
 Figure 3.1: Configuring SNORT
 
