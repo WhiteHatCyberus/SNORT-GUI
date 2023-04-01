@@ -19,6 +19,7 @@ try:
             snort.geometry('1200x650+1+1')
 
             filename="/etc/snort/rules/Untitled.rules"
+            
             command='sudo -S touch '+filename
             process = subprocess.Popen(command, shell=True, stdin=subprocess.PIPE, preexec_fn=os.setsid)
             process.stdin.write(sudo_password.encode('utf-8') + b'\n')
@@ -66,22 +67,27 @@ try:
 
             def mNew():
                 global filename 
-                response=messagebox.askyesnocancel("Creating new workspace","Do you want to save the current workspace?")
-                if response is True:
-                    mSaveas()
-                    filename="/etc/snort/rules/Untitled.rules"
-                elif response is False:
-                    if os.path.exists(filename):
-                        command='sudo -S rm '+filename
-                        process = subprocess.Popen(command, shell=True, stdin=subprocess.PIPE, preexec_fn=os.setsid)
-                        process.stdin.write(sudo_password.encode('utf-8') + b'\n')
-                        process.stdin.flush()
-                    else:
-                        myopen=""
-                        filename = myopen
-                        mylabel4.config(text=filename)
-                        mylabel4.pack()
-                    filename="/etc/snort/rules/Untitled.rules"
+                if filename=="/etc/snort/rules/Untitled.rules":
+                    response=messagebox.askyesnocancel("Creating new workspace","Do you want to save the current workspace?")
+                    if response is True:
+                        mSaveas()
+                        filename="/etc/snort/rules/Untitled.rules"
+                    elif response is False:
+                        if os.path.exists(filename):
+                            command='sudo -S rm '+filename
+                            process = subprocess.Popen(command, shell=True, stdin=subprocess.PIPE, preexec_fn=os.setsid)
+                            process.stdin.write(sudo_password.encode('utf-8') + b'\n')
+                            process.stdin.flush()
+                        else:
+                            myopen=""
+                            filename = myopen
+                            mylabel4.config(text=filename)
+                            mylabel4.pack()
+                myopen=""
+                filename = myopen
+                mylabel4.config(text=filename)
+                mylabel4.pack()
+                filename="/etc/snort/rules/Untitled.rules"
 
             def mAbout():
                 messagebox.showinfo(title='About',message='SNORT Rule Generator')
@@ -103,13 +109,10 @@ try:
                     return
                 
             def mSaveas():
-                
-                myopen=filedialog.asksaveasfilename(initialdir='/etc/snort/rules', defaultextension='.rules')
-                mylabel4=Label()
-                
+                myopen = filedialog.asksaveasfilename(initialdir='/etc/snort/rules', defaultextension='.rules')
                 if myopen:
                     global filename
-                    command='sudo -S mv '+filename+' '+myopen
+                    command = 'sudo -S mv '+filename+' '+myopen
                     process = subprocess.Popen(command, shell=True, stdin=subprocess.PIPE, preexec_fn=os.setsid)
                     process.stdin.write(sudo_password.encode('utf-8') + b'\n')
                     process.stdin.flush()
@@ -526,7 +529,7 @@ try:
                         flow="flow:"
                     if(Rulebody != "bos"):
                         myrule=Ruleheader+Rulebody+Ruleend+")"
-                        print(Ruleheader+Rulebody+Ruleend+")")
+                        
                         rules=Label(frame4,text=myrule,font=('Verdana', 8),bg='#81DAF5',padx=5,wraplength=900)
                         rules.grid(row=1,column=0,sticky=W)
                         Rulebody="bos"
@@ -534,8 +537,7 @@ try:
                         myrule=Ruleheader+Ruleend+")"
                         rules=Label(frame4,text=myrule,font=('Verdana', 8),bg='#81DAF5',padx=5,wraplength=900)
                         rules.grid(row=1,column=0,sticky=W)
-                        print(Ruleheader+Ruleend+")")
-                    print(filename)
+
 
                     if filename:
                         with open(filename, 'a') as file:
@@ -576,15 +578,7 @@ try:
             filemenu=Menu(menubar,tearoff=0)
             filemenu.add_command(label="New Workspace", command=mNew)
             filemenu.add_command(label="Open Workspace",command=mOpen)
-            if sum(1 for line in open(filename)) > 0:
-                # if filename is not empty and file has at least one line, enable "Save as" option
-                filemenu.add_command(label="Save as", command=mSaveas)
-                # create a bold font for the enabled menu items
-                font = ('TkDefaultFont', 'bold')
-            else:
-                # if filename is empty or file has no lines, disable "Save as" option and create a faded font
-                filemenu.add_command(label="Save as", command=mSaveas, state=DISABLED)
-                font = ('TkDefaultFont', 'italic')
+            filemenu.add_command(label="Save as", command=mSaveas)
             filemenu.add_command(label="Exit", command=mQuit)
             menubar.add_cascade(label="Options",menu=filemenu)
 
