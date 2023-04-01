@@ -28,10 +28,6 @@ def run_snort(duration_secs, process_lock, sudo_passwd, filename, interface_var)
                     datetime_string = datetime.datetime.now().strftime("%d-%m-%y@%H.%M.%S")
                     new_folderpath = f'{foldername}/{datetime_string}'
                     os.system(f'sudo mkdir {new_folderpath}')
-                    '''
-                    command="sudo snort -A console -A fast -q -c "+filename+" -i "+interface_var.get()+" -l "+new_folderpath
-                    print(command)
-                    '''
                     command = f'sudo -S timeout {duration_secs} snort -A console -A fast -q -c {filename} -i {interface_var.get()} -l {new_folderpath}'
                     snort_process = subprocess.Popen(command, shell=True, stdin=subprocess.PIPE, preexec_fn=os.setsid)
                     snort_process.stdin.write(sudo_passwd.encode('utf-8') + b'\n')
@@ -90,7 +86,6 @@ def show_snort_window():
     # Dropdown menu for network interfaces
     global interface_var
     interface_var = tk.StringVar()
-    interface_var.trace('w', lambda *args: print('Selected interface:', interface_var.get()))
     interface_menu = tk.OptionMenu(interface_frame, interface_var, *psutil.net_if_addrs().keys())
     interface_menu.grid(row=0, column=1, padx=5, pady=10)
 
