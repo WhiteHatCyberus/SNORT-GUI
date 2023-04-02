@@ -1,4 +1,5 @@
 import os, socket
+os.system('sudo apt install python3-pip')
 os.system("pip install --user tk")
 import tkinter as tk
 from tkinter import messagebox,scrolledtext
