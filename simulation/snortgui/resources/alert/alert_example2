@@ -1,0 +1,527 @@
+03/24-15:02:33.277440  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.1.38:53553 -> 239.255.255.250:1900
+03/24-15:02:33.302371  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.118:57335 -> 239.255.255.250:1900
+03/24-15:02:33.317967  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:49458 -> 239.255.255.250:1900
+03/24-15:02:33.358667  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 0.0.0.0:68 -> 255.255.255.255:67
+03/24-15:02:33.368366  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:49458 -> 239.255.255.250:1900
+03/24-15:02:33.419289  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:49458 -> 239.255.255.250:1900
+03/24-15:02:33.462738  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.185:63202 -> 239.255.255.250:1900
+03/24-15:02:33.464804  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.225:54546 -> 239.255.255.250:1900
+03/24-15:02:33.469853  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:49458 -> 239.255.255.250:1900
+03/24-15:02:33.495705  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.16.18:54152 -> 239.255.255.250:1900
+03/24-15:02:33.510387  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:49972 -> 239.255.255.250:1900
+03/24-15:02:33.510391  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:60678 -> 239.255.255.250:1900
+03/24-15:02:33.532014  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.55:50394 -> 239.255.255.250:1900
+03/24-15:02:33.554343  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.55:55029 -> 239.255.255.250:1900
+03/24-15:02:33.570352  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.55:58947 -> 239.255.255.250:1900
+03/24-15:02:33.667561  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::1:ff10:b0e4
+03/24-15:02:34.023249  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47794 -> 239.255.255.250:1900
+03/24-15:02:34.073915  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47794 -> 239.255.255.250:1900
+03/24-15:02:34.123914  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47794 -> 239.255.255.250:1900
+03/24-15:02:34.135479  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:52560 -> 239.255.255.250:1900
+03/24-15:02:34.142793  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:52561 -> 239.255.255.250:1900
+03/24-15:02:34.174285  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47794 -> 239.255.255.250:1900
+03/24-15:02:34.224807  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47794 -> 239.255.255.250:1900
+03/24-15:02:34.275186  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47794 -> 239.255.255.250:1900
+03/24-15:02:34.278320  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.1.38:53553 -> 239.255.255.250:1900
+03/24-15:02:34.301356  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.2.252:50287 -> 239.255.255.250:1900
+03/24-15:02:34.305585  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.118:57335 -> 239.255.255.250:1900
+03/24-15:02:34.466938  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.225:54546 -> 239.255.255.250:1900
+03/24-15:02:34.474217  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.185:63202 -> 239.255.255.250:1900
+03/24-15:02:34.652112  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 0.0.0.0:9091 -> 255.255.255.255:9090
+03/24-15:02:34.718486  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.55:55029 -> 239.255.255.250:1900
+03/24-15:02:34.718497  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.55:58947 -> 239.255.255.250:1900
+03/24-15:02:34.809007  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.55:64325 -> 239.255.255.250:1900
+03/24-15:02:34.809011  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.55:64326 -> 239.255.255.250:1900
+03/24-15:02:34.828013  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47588 -> 239.255.255.250:1900
+03/24-15:02:34.876936  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47588 -> 239.255.255.250:1900
+03/24-15:02:34.927368  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47588 -> 239.255.255.250:1900
+03/24-15:02:34.977733  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47588 -> 239.255.255.250:1900
+03/24-15:02:34.979963  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.7.242:49460 -> 239.255.255.250:1900
+03/24-15:02:35.028131  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47588 -> 239.255.255.250:1900
+03/24-15:02:35.078694  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47588 -> 239.255.255.250:1900
+03/24-15:02:35.139479  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:52560 -> 239.255.255.250:1900
+03/24-15:02:35.155012  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:52561 -> 239.255.255.250:1900
+03/24-15:02:35.191188  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.116:50508 -> 239.255.255.250:1900
+03/24-15:02:35.215566  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:55948 -> 239.255.255.250:1900
+03/24-15:02:35.278755  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.1.38:53553 -> 239.255.255.250:1900
+03/24-15:02:35.295165  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.116:50508 -> 239.255.255.250:1900
+03/24-15:02:35.302470  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.2.252:50287 -> 239.255.255.250:1900
+03/24-15:02:35.309318  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.118:57335 -> 239.255.255.250:1900
+03/24-15:02:35.400547  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.116:50508 -> 239.255.255.250:1900
+03/24-15:02:35.488072  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.185:63202 -> 239.255.255.250:1900
+03/24-15:02:35.564354  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.55:55029 -> 239.255.255.250:1900
+03/24-15:02:35.577166  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.55:58947 -> 239.255.255.250:1900
+03/24-15:02:35.631763  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:51905 -> 239.255.255.250:1900
+03/24-15:02:35.652224  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} fe80::598b:6d88:b844:6130:55946 -> ff02::c:1900
+03/24-15:02:35.652240  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:55948 -> 239.255.255.250:1900
+03/24-15:02:35.682319  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:51905 -> 239.255.255.250:1900
+03/24-15:02:35.687896  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:55948 -> 239.255.255.250:1900
+03/24-15:02:35.732694  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:51905 -> 239.255.255.250:1900
+03/24-15:02:35.783376  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:51905 -> 239.255.255.250:1900
+03/24-15:02:35.809501  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.55:64326 -> 239.255.255.250:1900
+03/24-15:02:35.809504  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.55:64325 -> 239.255.255.250:1900
+03/24-15:02:35.833626  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:51905 -> 239.255.255.250:1900
+03/24-15:02:35.936648  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:51905 -> 239.255.255.250:1900
+03/24-15:02:36.145675  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:52560 -> 239.255.255.250:1900
+03/24-15:02:36.161862  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:52561 -> 239.255.255.250:1900
+03/24-15:02:36.255708  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.55:50394 -> 239.255.255.250:1900
+03/24-15:02:36.280006  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.1.38:53553 -> 239.255.255.250:1900
+03/24-15:02:36.303230  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.2.252:50287 -> 239.255.255.250:1900
+03/24-15:02:36.436724  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60803 -> 239.255.255.250:1900
+03/24-15:02:36.488270  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60803 -> 239.255.255.250:1900
+03/24-15:02:36.510847  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.55:50394 -> 239.255.255.250:1900
+03/24-15:02:36.537554  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60803 -> 239.255.255.250:1900
+03/24-15:02:36.587919  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60803 -> 239.255.255.250:1900
+03/24-15:02:36.638316  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60803 -> 239.255.255.250:1900
+03/24-15:02:36.688650  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60803 -> 239.255.255.250:1900
+03/24-15:02:36.810244  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.55:64325 -> 239.255.255.250:1900
+03/24-15:02:36.815620  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.55:64326 -> 239.255.255.250:1900
+03/24-15:02:37.141708  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.9.46:44825 -> 239.255.255.250:1900
+03/24-15:02:37.158199  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:52560 -> 239.255.255.250:1900
+03/24-15:02:37.172838  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:52561 -> 239.255.255.250:1900
+03/24-15:02:37.241522  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60684 -> 239.255.255.250:1900
+03/24-15:02:37.292100  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60684 -> 239.255.255.250:1900
+03/24-15:02:37.304111  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.2.252:50287 -> 239.255.255.250:1900
+03/24-15:02:37.342719  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60684 -> 239.255.255.250:1900
+03/24-15:02:37.343618  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.2.113:61360 -> 239.255.255.250:1900
+03/24-15:02:37.395182  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60684 -> 239.255.255.250:1900
+03/24-15:02:37.445738  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60684 -> 239.255.255.250:1900
+03/24-15:02:37.497836  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60684 -> 239.255.255.250:1900
+03/24-15:02:37.676231  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 0.0.0.0:9091 -> 255.255.255.255:9090
+03/24-15:02:37.810484  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.55:64325 -> 239.255.255.250:1900
+03/24-15:02:37.830832  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.55:64326 -> 239.255.255.250:1900
+03/24-15:02:37.920977  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.136:45214 -> 239.255.255.250:1900
+03/24-15:02:38.048316  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.13:52189 -> 239.255.255.250:1900
+03/24-15:02:38.049629  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:50675 -> 239.255.255.250:1900
+03/24-15:02:38.057100  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.13:52190 -> 239.255.255.250:1900
+03/24-15:02:38.100058  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:50675 -> 239.255.255.250:1900
+03/24-15:02:38.143600  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.9.46:44825 -> 239.255.255.250:1900
+03/24-15:02:38.150491  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:50675 -> 239.255.255.250:1900
+03/24-15:02:38.177652  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.60:60762 -> 239.255.255.250:1900
+03/24-15:02:38.193975  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.60:60763 -> 239.255.255.250:1900
+03/24-15:02:38.200865  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:50675 -> 239.255.255.250:1900
+03/24-15:02:38.204395  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.136:45214 -> 239.255.255.250:1900
+03/24-15:02:38.237230  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:55948 -> 239.255.255.250:1900
+03/24-15:02:38.251484  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:50675 -> 239.255.255.250:1900
+03/24-15:02:38.301690  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:50675 -> 239.255.255.250:1900
+03/24-15:02:38.345864  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.2.113:61360 -> 239.255.255.250:1900
+03/24-15:02:38.521987  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.136:45214 -> 239.255.255.250:1900
+03/24-15:02:38.683962  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.8.223:59491 -> 239.255.255.250:1900
+03/24-15:02:38.697826  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} fe80::598b:6d88:b844:6130:55946 -> ff02::c:1900
+03/24-15:02:38.808582  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.177:54450 -> 239.255.255.250:1900
+03/24-15:02:38.854693  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57045 -> 239.255.255.250:1900
+03/24-15:02:38.905116  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57045 -> 239.255.255.250:1900
+03/24-15:02:38.955438  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57045 -> 239.255.255.250:1900
+03/24-15:02:39.005918  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57045 -> 239.255.255.250:1900
+03/24-15:02:39.049498  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.13:52189 -> 239.255.255.250:1900
+03/24-15:02:39.056479  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57045 -> 239.255.255.250:1900
+03/24-15:02:39.065112  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.13:52190 -> 239.255.255.250:1900
+03/24-15:02:39.106876  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57045 -> 239.255.255.250:1900
+03/24-15:02:39.152229  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.9.46:44825 -> 239.255.255.250:1900
+03/24-15:02:39.183912  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.60:60762 -> 239.255.255.250:1900
+03/24-15:02:39.200137  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.60:60763 -> 239.255.255.250:1900
+03/24-15:02:39.268305  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.55:50394 -> 239.255.255.250:1900
+03/24-15:02:39.348315  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.2.113:61360 -> 239.255.255.250:1900
+03/24-15:02:39.658398  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48645 -> 239.255.255.250:1900
+03/24-15:02:39.693499  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.8.223:59491 -> 239.255.255.250:1900
+03/24-15:02:39.708739  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48645 -> 239.255.255.250:1900
+03/24-15:02:39.759170  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48645 -> 239.255.255.250:1900
+03/24-15:02:39.811247  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48645 -> 239.255.255.250:1900
+03/24-15:02:39.824051  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.177:54450 -> 239.255.255.250:1900
+03/24-15:02:39.861572  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48645 -> 239.255.255.250:1900
+03/24-15:02:39.911965  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48645 -> 239.255.255.250:1900
+03/24-15:02:40.053299  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.13:52189 -> 239.255.255.250:1900
+03/24-15:02:40.068932  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.13:52190 -> 239.255.255.250:1900
+03/24-15:02:40.155309  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.9.46:44825 -> 239.255.255.250:1900
+03/24-15:02:40.194797  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.60:60762 -> 239.255.255.250:1900
+03/24-15:02:40.207315  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.60:60763 -> 239.255.255.250:1900
+03/24-15:02:40.353992  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.2.113:61360 -> 239.255.255.250:1900
+03/24-15:02:40.463861  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:52057 -> 239.255.255.250:1900
+03/24-15:02:40.514815  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:52057 -> 239.255.255.250:1900
+03/24-15:02:40.565246  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:52057 -> 239.255.255.250:1900
+03/24-15:02:40.615612  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:52057 -> 239.255.255.250:1900
+03/24-15:02:40.628323  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 0.0.0.0:9091 -> 255.255.255.255:9090
+03/24-15:02:40.666109  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:52057 -> 239.255.255.250:1900
+03/24-15:02:40.696366  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.8.223:59491 -> 239.255.255.250:1900
+03/24-15:02:40.716451  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:52057 -> 239.255.255.250:1900
+03/24-15:02:40.825329  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.177:54450 -> 239.255.255.250:1900
+03/24-15:02:41.068833  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.13:52189 -> 239.255.255.250:1900
+03/24-15:02:41.084465  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.13:52190 -> 239.255.255.250:1900
+03/24-15:02:41.206398  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.60:60762 -> 239.255.255.250:1900
+03/24-15:02:41.220583  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.60:60763 -> 239.255.255.250:1900
+03/24-15:02:41.250393  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:55948 -> 239.255.255.250:1900
+03/24-15:02:41.279304  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:56642 -> 239.255.255.250:1900
+03/24-15:02:41.301987  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.74:43648 -> 239.255.255.250:1900
+03/24-15:02:41.328522  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:56642 -> 239.255.255.250:1900
+03/24-15:02:41.378936  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:56642 -> 239.255.255.250:1900
+03/24-15:02:41.429518  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:56642 -> 239.255.255.250:1900
+03/24-15:02:41.479949  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:56642 -> 239.255.255.250:1900
+03/24-15:02:41.530521  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:56642 -> 239.255.255.250:1900
+03/24-15:02:41.610140  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.74:43648 -> 239.255.255.250:1900
+03/24-15:02:41.703955  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.8.223:59491 -> 239.255.255.250:1900
+03/24-15:02:41.830121  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.177:54450 -> 239.255.255.250:1900
+03/24-15:02:41.994231  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.74:43648 -> 239.255.255.250:1900
+03/24-15:02:42.085415  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:41374 -> 239.255.255.250:1900
+03/24-15:02:42.135814  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:41374 -> 239.255.255.250:1900
+03/24-15:02:42.186966  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:41374 -> 239.255.255.250:1900
+03/24-15:02:42.237330  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:41374 -> 239.255.255.250:1900
+03/24-15:02:42.287794  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:41374 -> 239.255.255.250:1900
+03/24-15:02:42.338326  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:41374 -> 239.255.255.250:1900
+03/24-15:02:42.379822  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.55:50394 -> 239.255.255.250:1900
+03/24-15:02:42.743212  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.184:59588 -> 239.255.255.250:1900
+03/24-15:02:42.879170  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.239:56660 -> 239.255.255.250:1900
+03/24-15:02:42.889524  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53615 -> 239.255.255.250:1900
+03/24-15:02:42.891097  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.239:56662 -> 239.255.255.250:1900
+03/24-15:02:42.939922  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53615 -> 239.255.255.250:1900
+03/24-15:02:42.990387  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53615 -> 239.255.255.250:1900
+03/24-15:02:43.041881  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53615 -> 239.255.255.250:1900
+03/24-15:02:43.091214  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53615 -> 239.255.255.250:1900
+03/24-15:02:43.141580  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53615 -> 239.255.255.250:1900
+03/24-15:02:43.694685  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:43993 -> 239.255.255.250:1900
+03/24-15:02:43.744065  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.184:59588 -> 239.255.255.250:1900
+03/24-15:02:43.745007  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:43993 -> 239.255.255.250:1900
+03/24-15:02:43.795611  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:43993 -> 239.255.255.250:1900
+03/24-15:02:43.846009  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:43993 -> 239.255.255.250:1900
+03/24-15:02:43.864963  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.239:56660 -> 239.255.255.250:1900
+03/24-15:02:43.885167  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.239:56662 -> 239.255.255.250:1900
+03/24-15:02:43.896471  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:43993 -> 239.255.255.250:1900
+03/24-15:02:43.947032  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:43993 -> 239.255.255.250:1900
+03/24-15:02:44.280132  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.1:55948 -> 239.255.255.250:1900
+03/24-15:02:44.499940  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47012 -> 239.255.255.250:1900
+03/24-15:02:44.550272  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47012 -> 239.255.255.250:1900
+03/24-15:02:44.600667  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47012 -> 239.255.255.250:1900
+03/24-15:02:44.651235  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47012 -> 239.255.255.250:1900
+03/24-15:02:44.701587  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47012 -> 239.255.255.250:1900
+03/24-15:02:44.744808  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.184:59588 -> 239.255.255.250:1900
+03/24-15:02:44.752259  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47012 -> 239.255.255.250:1900
+03/24-15:02:44.875043  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.239:56660 -> 239.255.255.250:1900
+03/24-15:02:44.888902  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.239:56662 -> 239.255.255.250:1900
+03/24-15:02:45.170769  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.206:58841 -> 239.255.255.250:1900
+03/24-15:02:45.190748  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.116:50508 -> 239.255.255.250:1900
+03/24-15:02:45.289087  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.55:50394 -> 239.255.255.250:1900
+03/24-15:02:45.301757  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.116:50508 -> 239.255.255.250:1900
+03/24-15:02:45.305999  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:35953 -> 239.255.255.250:1900
+03/24-15:02:45.356710  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:35953 -> 239.255.255.250:1900
+03/24-15:02:45.407237  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:35953 -> 239.255.255.250:1900
+03/24-15:02:45.407827  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.116:50508 -> 239.255.255.250:1900
+03/24-15:02:45.417801  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.7.105:59283 -> 239.255.255.250:1900
+03/24-15:02:45.418024  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.7.105:59284 -> 239.255.255.250:1900
+03/24-15:02:45.458371  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:35953 -> 239.255.255.250:1900
+03/24-15:02:45.508787  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:35953 -> 239.255.255.250:1900
+03/24-15:02:45.559218  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:35953 -> 239.255.255.250:1900
+03/24-15:02:45.665520  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.148:49551 -> 239.255.255.250:1900
+03/24-15:02:45.745573  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.184:59588 -> 239.255.255.250:1900
+03/24-15:02:45.887363  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.239:56660 -> 239.255.255.250:1900
+03/24-15:02:45.896898  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.239:56662 -> 239.255.255.250:1900
+03/24-15:02:46.112353  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48911 -> 239.255.255.250:1900
+03/24-15:02:46.162739  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48911 -> 239.255.255.250:1900
+03/24-15:02:46.180445  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.206:58841 -> 239.255.255.250:1900
+03/24-15:02:46.213214  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48911 -> 239.255.255.250:1900
+03/24-15:02:46.263820  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48911 -> 239.255.255.250:1900
+03/24-15:02:46.314330  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48911 -> 239.255.255.250:1900
+03/24-15:02:46.364772  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48911 -> 239.255.255.250:1900
+03/24-15:02:46.433195  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.7.105:59283 -> 239.255.255.250:1900
+03/24-15:02:46.433198  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.7.105:59284 -> 239.255.255.250:1900
+03/24-15:02:46.665743  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.148:49551 -> 239.255.255.250:1900
+03/24-15:02:46.917807  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:42214 -> 239.255.255.250:1900
+03/24-15:02:46.968204  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:42214 -> 239.255.255.250:1900
+03/24-15:02:46.997013  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.44:58844 -> 239.255.255.250:1900
+03/24-15:02:47.018509  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:42214 -> 239.255.255.250:1900
+03/24-15:02:47.042724  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.1.18:56573 -> 239.255.255.250:1900
+03/24-15:02:47.068906  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:42214 -> 239.255.255.250:1900
+03/24-15:02:47.119370  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:42214 -> 239.255.255.250:1900
+03/24-15:02:47.169703  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:42214 -> 239.255.255.250:1900
+03/24-15:02:47.195885  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.206:58841 -> 239.255.255.250:1900
+03/24-15:02:47.442739  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.7.105:59283 -> 239.255.255.250:1900
+03/24-15:02:47.442744  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.7.105:59284 -> 239.255.255.250:1900
+03/24-15:02:47.667158  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.148:49551 -> 239.255.255.250:1900
+03/24-15:02:47.720948  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:33500 -> 239.255.255.250:1900
+03/24-15:02:47.771333  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:33500 -> 239.255.255.250:1900
+03/24-15:02:47.799042  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.184:55986 -> 239.255.255.250:1900
+03/24-15:02:47.822124  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:33500 -> 239.255.255.250:1900
+03/24-15:02:47.858475  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.184:55987 -> 239.255.255.250:1900
+03/24-15:02:47.873734  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:33500 -> 239.255.255.250:1900
+03/24-15:02:47.888134  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::1:ff59:7ad1
+03/24-15:02:47.891296  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 0.0.0.0:68 -> 255.255.255.255:67
+03/24-15:02:47.924196  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:33500 -> 239.255.255.250:1900
+03/24-15:02:47.961288  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.136:49733 -> 239.255.255.250:1900
+03/24-15:02:47.974609  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:33500 -> 239.255.255.250:1900
+03/24-15:02:48.009070  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.44:58844 -> 239.255.255.250:1900
+03/24-15:02:48.047047  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.1.18:56573 -> 239.255.255.250:1900
+03/24-15:02:48.211347  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.206:58841 -> 239.255.255.250:1900
+03/24-15:02:48.266607  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.136:49733 -> 239.255.255.250:1900
+03/24-15:02:48.273905  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.44:58845 -> 239.255.255.250:1900
+03/24-15:02:48.298450  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.55:50394 -> 239.255.255.250:1900
+03/24-15:02:48.457354  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.7.105:59284 -> 239.255.255.250:1900
+03/24-15:02:48.457358  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.7.105:59283 -> 239.255.255.250:1900
+03/24-15:02:48.521943  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.136:49733 -> 239.255.255.250:1900
+03/24-15:02:48.526222  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60600 -> 239.255.255.250:1900
+03/24-15:02:48.576588  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60600 -> 239.255.255.250:1900
+03/24-15:02:48.626987  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60600 -> 239.255.255.250:1900
+03/24-15:02:48.678210  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60600 -> 239.255.255.250:1900
+03/24-15:02:48.684176  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.148:49551 -> 239.255.255.250:1900
+03/24-15:02:48.727783  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60600 -> 239.255.255.250:1900
+03/24-15:02:48.779273  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:60600 -> 239.255.255.250:1900
+03/24-15:02:48.782691  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.151:59801 -> 239.255.255.250:1900
+03/24-15:02:48.798871  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.184:55986 -> 239.255.255.250:1900
+03/24-15:02:48.799416  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.151:59802 -> 239.255.255.250:1900
+03/24-15:02:48.868130  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.184:55987 -> 239.255.255.250:1900
+03/24-15:02:48.950458  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.7.242:49460 -> 239.255.255.250:1900
+03/24-15:02:49.012182  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.44:58844 -> 239.255.255.250:1900
+03/24-15:02:49.053370  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.1.18:56573 -> 239.255.255.250:1900
+03/24-15:02:49.281357  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.44:58845 -> 239.255.255.250:1900
+03/24-15:02:49.333474  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57612 -> 239.255.255.250:1900
+03/24-15:02:49.384400  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57612 -> 239.255.255.250:1900
+03/24-15:02:49.435224  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57612 -> 239.255.255.250:1900
+03/24-15:02:49.485986  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57612 -> 239.255.255.250:1900
+03/24-15:02:49.536545  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57612 -> 239.255.255.250:1900
+03/24-15:02:49.586561  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57612 -> 239.255.255.250:1900
+03/24-15:02:49.800725  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.184:55986 -> 239.255.255.250:1900
+03/24-15:02:49.802173  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.151:59801 -> 239.255.255.250:1900
+03/24-15:02:49.802176  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.151:59802 -> 239.255.255.250:1900
+03/24-15:02:49.878788  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.184:55987 -> 239.255.255.250:1900
+03/24-15:02:49.925870  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.190:53958 -> 239.255.255.250:1900
+03/24-15:02:50.012249  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.44:58844 -> 239.255.255.250:1900
+03/24-15:02:50.061170  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.1.18:56573 -> 239.255.255.250:1900
+03/24-15:02:50.137810  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53031 -> 239.255.255.250:1900
+03/24-15:02:50.190116  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53031 -> 239.255.255.250:1900
+03/24-15:02:50.240674  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53031 -> 239.255.255.250:1900
+03/24-15:02:50.285777  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.44:58845 -> 239.255.255.250:1900
+03/24-15:02:50.291021  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53031 -> 239.255.255.250:1900
+03/24-15:02:50.341605  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53031 -> 239.255.255.250:1900
+03/24-15:02:50.393185  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53031 -> 239.255.255.250:1900
+03/24-15:02:50.809850  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.151:59801 -> 239.255.255.250:1900
+03/24-15:02:50.809854  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.151:59802 -> 239.255.255.250:1900
+03/24-15:02:50.812523  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.184:55986 -> 239.255.255.250:1900
+03/24-15:02:50.889135  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.184:55987 -> 239.255.255.250:1900
+03/24-15:02:50.933212  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.190:53958 -> 239.255.255.250:1900
+03/24-15:02:50.943434  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:39814 -> 239.255.255.250:1900
+03/24-15:02:50.993808  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:39814 -> 239.255.255.250:1900
+03/24-15:02:51.044230  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:39814 -> 239.255.255.250:1900
+03/24-15:02:51.096103  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:39814 -> 239.255.255.250:1900
+03/24-15:02:51.145025  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:39814 -> 239.255.255.250:1900
+03/24-15:02:51.195302  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:39814 -> 239.255.255.250:1900
+03/24-15:02:51.298134  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.44:58845 -> 239.255.255.250:1900
+03/24-15:02:51.316111  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.55:50394 -> 239.255.255.250:1900
+03/24-15:02:51.320318  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.74:37526 -> 239.255.255.250:1900
+03/24-15:02:51.619792  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.74:37526 -> 239.255.255.250:1900
+03/24-15:02:51.749215  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57071 -> 239.255.255.250:1900
+03/24-15:02:51.798957  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57071 -> 239.255.255.250:1900
+03/24-15:02:51.821272  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.151:59802 -> 239.255.255.250:1900
+03/24-15:02:51.821275  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.151:59801 -> 239.255.255.250:1900
+03/24-15:02:51.849338  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57071 -> 239.255.255.250:1900
+03/24-15:02:51.899767  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57071 -> 239.255.255.250:1900
+03/24-15:02:51.924954  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.74:37526 -> 239.255.255.250:1900
+03/24-15:02:51.933488  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.190:53958 -> 239.255.255.250:1900
+03/24-15:02:51.952350  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57071 -> 239.255.255.250:1900
+03/24-15:02:51.955560  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.7.242:49460 -> 239.255.255.250:1900
+03/24-15:02:52.001138  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57071 -> 239.255.255.250:1900
+03/24-15:02:52.553502  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:52592 -> 239.255.255.250:1900
+03/24-15:02:52.604770  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:52592 -> 239.255.255.250:1900
+03/24-15:02:52.654972  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:52592 -> 239.255.255.250:1900
+03/24-15:02:52.705139  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:52592 -> 239.255.255.250:1900
+03/24-15:02:52.755802  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:52592 -> 239.255.255.250:1900
+03/24-15:02:52.806757  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:52592 -> 239.255.255.250:1900
+03/24-15:02:52.839768  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.8.8:53613 -> 239.255.255.250:1900
+03/24-15:02:52.926562  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 0.0.0.0:68 -> 255.255.255.255:67
+03/24-15:02:52.934177  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.190:53958 -> 239.255.255.250:1900
+03/24-15:02:53.008709  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::1:ffb5:3530
+03/24-15:02:53.362641  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47433 -> 239.255.255.250:1900
+03/24-15:02:53.411338  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47433 -> 239.255.255.250:1900
+03/24-15:02:53.462031  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47433 -> 239.255.255.250:1900
+03/24-15:02:53.512575  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47433 -> 239.255.255.250:1900
+03/24-15:02:53.562992  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47433 -> 239.255.255.250:1900
+03/24-15:02:53.613422  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47433 -> 239.255.255.250:1900
+03/24-15:02:53.840196  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.8.8:53613 -> 239.255.255.250:1900
+03/24-15:02:54.166983  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53491 -> 239.255.255.250:1900
+03/24-15:02:54.217377  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53491 -> 239.255.255.250:1900
+03/24-15:02:54.267786  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53491 -> 239.255.255.250:1900
+03/24-15:02:54.318538  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53491 -> 239.255.255.250:1900
+03/24-15:02:54.369042  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53491 -> 239.255.255.250:1900
+03/24-15:02:54.419401  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:53491 -> 239.255.255.250:1900
+03/24-15:02:54.829708  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 0.0.0.0:68 -> 255.255.255.255:67
+03/24-15:02:54.840918  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.8.8:53613 -> 239.255.255.250:1900
+03/24-15:02:54.957704  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.7.242:49460 -> 239.255.255.250:1900
+03/24-15:02:54.972413  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:38125 -> 239.255.255.250:1900
+03/24-15:02:55.022766  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:38125 -> 239.255.255.250:1900
+03/24-15:02:55.073168  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:38125 -> 239.255.255.250:1900
+03/24-15:02:55.125172  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:38125 -> 239.255.255.250:1900
+03/24-15:02:55.174060  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:38125 -> 239.255.255.250:1900
+03/24-15:02:55.205617  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.116:50508 -> 239.255.255.250:1900
+03/24-15:02:55.224460  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:38125 -> 239.255.255.250:1900
+03/24-15:02:55.305536  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.116:50508 -> 239.255.255.250:1900
+03/24-15:02:55.377654  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.211:62051 -> 239.255.255.250:1900
+03/24-15:02:55.410946  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.116:50508 -> 239.255.255.250:1900
+03/24-15:02:55.775694  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:46889 -> 239.255.255.250:1900
+03/24-15:02:55.825991  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:46889 -> 239.255.255.250:1900
+03/24-15:02:55.842148  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.8.8:53613 -> 239.255.255.250:1900
+03/24-15:02:55.877179  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:46889 -> 239.255.255.250:1900
+03/24-15:02:55.928560  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:46889 -> 239.255.255.250:1900
+03/24-15:02:55.979058  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:46889 -> 239.255.255.250:1900
+03/24-15:02:56.029487  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:46889 -> 239.255.255.250:1900
+03/24-15:02:56.102625  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.16.15:59569 -> 239.255.255.250:1900
+03/24-15:02:56.259791  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.2.71:50010 -> 239.255.255.250:1900
+03/24-15:02:56.385910  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.211:62051 -> 239.255.255.250:1900
+03/24-15:02:56.581225  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:35627 -> 239.255.255.250:1900
+03/24-15:02:56.631677  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:35627 -> 239.255.255.250:1900
+03/24-15:02:56.681984  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:35627 -> 239.255.255.250:1900
+03/24-15:02:56.704421  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.70:49594 -> 239.255.255.250:1900
+03/24-15:02:56.732451  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:35627 -> 239.255.255.250:1900
+03/24-15:02:56.782933  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:35627 -> 239.255.255.250:1900
+03/24-15:02:56.833400  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:35627 -> 239.255.255.250:1900
+03/24-15:02:57.105640  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.16.15:59569 -> 239.255.255.250:1900
+03/24-15:02:57.260675  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.2.71:50010 -> 239.255.255.250:1900
+03/24-15:02:57.391679  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.211:62051 -> 239.255.255.250:1900
+03/24-15:02:57.394137  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:45130 -> 239.255.255.250:1900
+03/24-15:02:57.447842  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:45130 -> 239.255.255.250:1900
+03/24-15:02:57.498403  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:45130 -> 239.255.255.250:1900
+03/24-15:02:57.549328  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:45130 -> 239.255.255.250:1900
+03/24-15:02:57.599892  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:45130 -> 239.255.255.250:1900
+03/24-15:02:57.650813  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:45130 -> 239.255.255.250:1900
+03/24-15:02:57.706024  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.70:49594 -> 239.255.255.250:1900
+03/24-15:02:58.029358  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.136:42702 -> 239.255.255.250:1900
+03/24-15:02:58.115736  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.16.15:59569 -> 239.255.255.250:1900
+03/24-15:02:58.202013  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:32884 -> 239.255.255.250:1900
+03/24-15:02:58.252446  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:32884 -> 239.255.255.250:1900
+03/24-15:02:58.261659  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.2.71:50010 -> 239.255.255.250:1900
+03/24-15:02:58.304980  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:32884 -> 239.255.255.250:1900
+03/24-15:02:58.328500  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.136:42702 -> 239.255.255.250:1900
+03/24-15:02:58.355402  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:32884 -> 239.255.255.250:1900
+03/24-15:02:58.406130  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:32884 -> 239.255.255.250:1900
+03/24-15:02:58.407634  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.211:62051 -> 239.255.255.250:1900
+03/24-15:02:58.456298  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:32884 -> 239.255.255.250:1900
+03/24-15:02:58.617895  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.136:42702 -> 239.255.255.250:1900
+03/24-15:02:58.720743  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.70:49594 -> 239.255.255.250:1900
+03/24-15:02:59.007830  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48623 -> 239.255.255.250:1900
+03/24-15:02:59.059896  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48623 -> 239.255.255.250:1900
+03/24-15:02:59.108627  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48623 -> 239.255.255.250:1900
+03/24-15:02:59.120936  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.16.15:59569 -> 239.255.255.250:1900
+03/24-15:02:59.159056  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48623 -> 239.255.255.250:1900
+03/24-15:02:59.209454  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48623 -> 239.255.255.250:1900
+03/24-15:02:59.259857  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48623 -> 239.255.255.250:1900
+03/24-15:02:59.262314  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.2.71:50010 -> 239.255.255.250:1900
+03/24-15:02:59.360157  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.210:51594 -> 239.255.255.250:1900
+03/24-15:02:59.734997  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.70:49594 -> 239.255.255.250:1900
+03/24-15:02:59.813970  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:36119 -> 239.255.255.250:1900
+03/24-15:02:59.863974  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:36119 -> 239.255.255.250:1900
+03/24-15:02:59.916273  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:36119 -> 239.255.255.250:1900
+03/24-15:02:59.916928  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 0.0.0.0:68 -> 255.255.255.255:67
+03/24-15:02:59.965589  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:36119 -> 239.255.255.250:1900
+03/24-15:03:00.015299  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:36119 -> 239.255.255.250:1900
+03/24-15:03:00.065730  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:36119 -> 239.255.255.250:1900
+03/24-15:03:00.264930  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::1:ff71:dbbe
+03/24-15:03:00.372741  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.210:51594 -> 239.255.255.250:1900
+03/24-15:03:00.619358  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:40204 -> 239.255.255.250:1900
+03/24-15:03:00.672443  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:40204 -> 239.255.255.250:1900
+03/24-15:03:00.723182  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:40204 -> 239.255.255.250:1900
+03/24-15:03:00.773764  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:40204 -> 239.255.255.250:1900
+03/24-15:03:00.824455  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:40204 -> 239.255.255.250:1900
+03/24-15:03:00.874986  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:40204 -> 239.255.255.250:1900
+03/24-15:03:01.096304  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.190:50272 -> 239.255.255.250:1900
+03/24-15:03:01.356356  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.130:51835 -> 239.255.255.250:1900
+03/24-15:03:01.370513  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.74:57572 -> 239.255.255.250:1900
+03/24-15:03:01.382178  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.210:51594 -> 239.255.255.250:1900
+03/24-15:03:01.403149  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.130:51836 -> 239.255.255.250:1900
+03/24-15:03:01.427204  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:38447 -> 239.255.255.250:1900
+03/24-15:03:01.478510  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:38447 -> 239.255.255.250:1900
+03/24-15:03:01.527868  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:38447 -> 239.255.255.250:1900
+03/24-15:03:01.580559  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:38447 -> 239.255.255.250:1900
+03/24-15:03:01.629417  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:38447 -> 239.255.255.250:1900
+03/24-15:03:01.638002  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.74:57572 -> 239.255.255.250:1900
+03/24-15:03:01.679782  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:38447 -> 239.255.255.250:1900
+03/24-15:03:01.936460  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.74:57572 -> 239.255.255.250:1900
+03/24-15:03:02.109150  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.190:50272 -> 239.255.255.250:1900
+03/24-15:03:02.234320  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:55590 -> 239.255.255.250:1900
+03/24-15:03:02.283387  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:55590 -> 239.255.255.250:1900
+03/24-15:03:02.334008  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:55590 -> 239.255.255.250:1900
+03/24-15:03:02.350296  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.9:59620 -> 239.255.255.250:1900
+03/24-15:03:02.362387  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.130:51835 -> 239.255.255.250:1900
+03/24-15:03:02.382122  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.9:59621 -> 239.255.255.250:1900
+03/24-15:03:02.384307  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:55590 -> 239.255.255.250:1900
+03/24-15:03:02.389746  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.3.210:51594 -> 239.255.255.250:1900
+03/24-15:03:02.417733  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.130:51836 -> 239.255.255.250:1900
+03/24-15:03:02.434771  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:55590 -> 239.255.255.250:1900
+03/24-15:03:02.485170  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:55590 -> 239.255.255.250:1900
+03/24-15:03:03.037878  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47174 -> 239.255.255.250:1900
+03/24-15:03:03.088276  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47174 -> 239.255.255.250:1900
+03/24-15:03:03.116629  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.190:50272 -> 239.255.255.250:1900
+03/24-15:03:03.138709  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47174 -> 239.255.255.250:1900
+03/24-15:03:03.189074  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47174 -> 239.255.255.250:1900
+03/24-15:03:03.240714  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47174 -> 239.255.255.250:1900
+03/24-15:03:03.289912  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:47174 -> 239.255.255.250:1900
+03/24-15:03:03.355733  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.9:59620 -> 239.255.255.250:1900
+03/24-15:03:03.377161  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.130:51835 -> 239.255.255.250:1900
+03/24-15:03:03.386247  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.9:59621 -> 239.255.255.250:1900
+03/24-15:03:03.418750  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.130:51836 -> 239.255.255.250:1900
+03/24-15:03:03.566563  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.16.15:59570 -> 239.255.255.250:1900
+03/24-15:03:03.621259  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 0.0.0.0:9091 -> 255.255.255.255:9090
+03/24-15:03:03.841124  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:49375 -> 239.255.255.250:1900
+03/24-15:03:03.891539  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:49375 -> 239.255.255.250:1900
+03/24-15:03:03.941838  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:49375 -> 239.255.255.250:1900
+03/24-15:03:03.992298  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:49375 -> 239.255.255.250:1900
+03/24-15:03:04.042730  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:49375 -> 239.255.255.250:1900
+03/24-15:03:04.093161  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:49375 -> 239.255.255.250:1900
+03/24-15:03:04.120226  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.0.190:50272 -> 239.255.255.250:1900
+03/24-15:03:04.324959  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IPV6-ICMP} :: -> ff02::1:ff59:7ad1
+03/24-15:03:04.328731  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 0.0.0.0:68 -> 255.255.255.255:67
+03/24-15:03:04.365730  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.9:59620 -> 239.255.255.250:1900
+03/24-15:03:04.385994  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.130:51835 -> 239.255.255.250:1900
+03/24-15:03:04.396040  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.9:59621 -> 239.255.255.250:1900
+03/24-15:03:04.430807  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.130:51836 -> 239.255.255.250:1900
+03/24-15:03:04.569320  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.16.15:59570 -> 239.255.255.250:1900
+03/24-15:03:04.642293  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.107:49552 -> 239.255.255.250:1900
+03/24-15:03:04.646719  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:51195 -> 239.255.255.250:1900
+03/24-15:03:04.697347  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:51195 -> 239.255.255.250:1900
+03/24-15:03:04.747912  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:51195 -> 239.255.255.250:1900
+03/24-15:03:04.800569  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:51195 -> 239.255.255.250:1900
+03/24-15:03:04.824374  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.121:49688 -> 239.255.255.250:1900
+03/24-15:03:04.824627  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.121:49690 -> 239.255.255.250:1900
+03/24-15:03:04.827341  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.232:49689 -> 239.255.255.250:1900
+03/24-15:03:04.827345  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.232:49691 -> 239.255.255.250:1900
+03/24-15:03:04.851922  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:51195 -> 239.255.255.250:1900
+03/24-15:03:04.904332  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:51195 -> 239.255.255.250:1900
+03/24-15:03:05.203982  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.116:50508 -> 239.255.255.250:1900
+03/24-15:03:05.305125  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.116:50508 -> 239.255.255.250:1900
+03/24-15:03:05.379394  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.9:59620 -> 239.255.255.250:1900
+03/24-15:03:05.410886  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.116:50508 -> 239.255.255.250:1900
+03/24-15:03:05.411160  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.9:59621 -> 239.255.255.250:1900
+03/24-15:03:05.460497  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57021 -> 239.255.255.250:1900
+03/24-15:03:05.497558  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.32:55510 -> 239.255.255.250:1900
+03/24-15:03:05.511189  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57021 -> 239.255.255.250:1900
+03/24-15:03:05.542943  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.32:55511 -> 239.255.255.250:1900
+03/24-15:03:05.561279  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57021 -> 239.255.255.250:1900
+03/24-15:03:05.570073  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.16.15:59570 -> 239.255.255.250:1900
+03/24-15:03:05.589408  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.16.82:56445 -> 239.255.255.250:1900
+03/24-15:03:05.613560  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57021 -> 239.255.255.250:1900
+03/24-15:03:05.654687  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.107:49552 -> 239.255.255.250:1900
+03/24-15:03:05.662219  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57021 -> 239.255.255.250:1900
+03/24-15:03:05.712620  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:57021 -> 239.255.255.250:1900
+03/24-15:03:05.825737  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.121:49690 -> 239.255.255.250:1900
+03/24-15:03:05.827800  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.232:49691 -> 239.255.255.250:1900
+03/24-15:03:05.835207  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.121:49688 -> 239.255.255.250:1900
+03/24-15:03:05.840318  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.232:49689 -> 239.255.255.250:1900
+03/24-15:03:06.137012  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.2:55479 -> 239.255.255.250:1900
+03/24-15:03:06.138247  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.2:55479 -> 239.255.255.250:1900
+03/24-15:03:06.138675  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.2:55479 -> 239.255.255.250:1900
+03/24-15:03:06.265208  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48258 -> 239.255.255.250:1900
+03/24-15:03:06.314160  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48258 -> 239.255.255.250:1900
+03/24-15:03:06.364655  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48258 -> 239.255.255.250:1900
+03/24-15:03:06.415107  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48258 -> 239.255.255.250:1900
+03/24-15:03:06.465492  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48258 -> 239.255.255.250:1900
+03/24-15:03:06.499663  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.32:55510 -> 239.255.255.250:1900
+03/24-15:03:06.516016  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:48258 -> 239.255.255.250:1900
+03/24-15:03:06.546886  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.2.32:55511 -> 239.255.255.250:1900
+03/24-15:03:06.572674  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.16.15:59570 -> 239.255.255.250:1900
+03/24-15:03:06.590042  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 192.168.16.82:56445 -> 239.255.255.250:1900
+03/24-15:03:06.609371  [**] [1:527:8] BAD-TRAFFIC same SRC/DST [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 0.0.0.0:9091 -> 255.255.255.255:9090
+03/24-15:03:06.661184  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.1.107:49552 -> 239.255.255.250:1900
+03/24-15:03:06.750343  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.3.41:50313 -> 239.255.255.250:1900
+03/24-15:03:06.826661  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.121:49690 -> 239.255.255.250:1900
+03/24-15:03:06.829708  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.232:49691 -> 239.255.255.250:1900
+03/24-15:03:06.843210  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.121:49688 -> 239.255.255.250:1900
+03/24-15:03:06.844998  [**] [1:1917:6] SCAN UPnP service discover attempt [**] [Classification: Detection of a Network Scan] [Priority: 3] {UDP} 172.16.0.232:49689 -> 239.255.255.250:1900
+03/24-15:03:07.069120  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:32899 -> 239.255.255.250:1900
+03/24-15:03:07.119517  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:32899 -> 239.255.255.250:1900
+03/24-15:03:07.169946  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:32899 -> 239.255.255.250:1900
+03/24-15:03:07.220309  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:32899 -> 239.255.255.250:1900
+03/24-15:03:07.270777  [**] [1:1384:8] MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 172.16.1.133:32899 -> 239.255.255.250:1900
