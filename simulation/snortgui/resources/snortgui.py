@@ -27,7 +27,7 @@ try:
 
                 # load and display the background image
 
-                img = Image.open('.resources/info/images/snort.jpg')
+                img = Image.open('.resources/info/images/SIMULATION.png')
                 img = img.resize((1200, 650), Image.ANTIALIAS)
                 img = ImageTk.PhotoImage(img)
                 canvas.create_image(0, 0, image=img, anchor=tk.NW)
@@ -88,6 +88,10 @@ try:
                 def help():
                     messagebox.showerror("Under construction","The help centre is under development, coming soon...")
                 
+                def run_simulation():
+                    '''
+                    to be continued
+                    '''
                 
                 # create the buttons
                 button_width, button_height = 20, 2
@@ -98,22 +102,27 @@ try:
                 generate_button = tk.Button(root, width=button_width, height=button_height, text='GENERATE RULES', font=button_font,
                                             bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
                                             activeforeground=button_active_fg, command=generate_rules)
-                generate_button.place(x=45, y=100)
+                generate_button.place(x=45, y=50)
 
                 open_button = tk.Button(root, width=button_width, height=button_height, text='CONFIGURATION FILES', font=button_font,
                                         bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
                                         activeforeground=button_active_fg, command=open_files)
-                open_button.place(x=45, y=225)
+                open_button.place(x=45, y=175)
 
                 run_button = tk.Button(root, width=button_width, height=button_height, text='LOG ANALYZER', font=button_font,
                                     bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
                                     activeforeground=button_active_fg, command=log_analyser)
-                run_button.place(x=45, y=350)
+                run_button.place(x=45, y=300)
 
                 run_button = tk.Button(root, width=button_width, height=button_height, text='RUN SNORT', font=button_font,
                                     bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
                                     activeforeground=button_active_fg, command=run_ids)
-                run_button.place(x=45, y=475)
+                run_button.place(x=45, y=425)
+
+                simulation_button = tk.Button(root, width=button_width, height=button_height, text='SIMULATION MODE', font=button_font,
+                                            bg=button_bg, fg=button_fg, relief='groove', cursor='hand2', activebackground=button_active_bg,
+                                            activeforeground=button_active_fg, command=run_simulation)
+                simulation_button.place(x=45, y=550)
 
 
                 # create the menu bar
