@@ -30,12 +30,15 @@ else:
             return
     #main
     def run_commands():
+        with open('.resources/info/requirements.txt','r') as f:
+            commands = f.readlines()
+        i=1
         button1.place_forget()
+        button['text'] = f'Downloading Components ({i}/{len(commands)})'
         button.place(x=30,y=80)
         message_label['text']='Installation in progress...'
         message_label.place(x=45,y=10)
-        with open('.resources/info/requirements.txt','r') as f:
-            commands = f.readlines()
+        
 
         progress_bar['maximum'] = len(commands)
 
