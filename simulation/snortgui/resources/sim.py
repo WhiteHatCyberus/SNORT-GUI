@@ -44,7 +44,7 @@ try:
                         process = subprocess.Popen(cmd, shell=True, stdin=subprocess.PIPE, preexec_fn=os.setsid)
                         process.stdin.write(sudo_password.encode('utf-8') + b'\n')
                         process.stdin.flush()
-                        messagebox.showinfo("Configuration Success", "Your system is ready to be connected by the attacker")
+                        messagebox.showinfo("Configuration Success", "Your system is ready for simulation (your ip:192.168.1.0)")
                         exit()
                 interface_var = tk.StringVar()
                 interface_menu = tk.OptionMenu(canvas1, interface_var, *psutil.net_if_addrs().keys())
