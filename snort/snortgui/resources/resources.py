@@ -28,9 +28,7 @@ else:
         if mexit>0:
             snort.destroy()
             return
-       
-    # installs required python modules
-    
+    #main
     def run_commands():
         with open('.resources/info/requirements.txt','r') as f:
             commands = f.readlines()
