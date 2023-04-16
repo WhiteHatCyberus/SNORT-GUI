@@ -39,7 +39,7 @@ snort -A console -A fast -q -i <network_interface> -c <configuration_file> -l <l
 
 ### Download
 
-1. Download the latest `snortgui.zip` release (tag: v1.1) available in the "Releases" tab.
+1. Download the latest `snortgui-enterprise-edition.zip` release (tag: v2) available in the "Releases" tab.
 2. Alternatively, download via Git, and navigate to "snort/snortgui/" for application files.
 
 ### Installation
