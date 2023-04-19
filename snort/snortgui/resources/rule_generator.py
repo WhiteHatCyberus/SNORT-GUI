@@ -1,7 +1,7 @@
 import os,subprocess
 import tkinter as tk
 from tkinter import *
-
+from tkinter import filedialog, messagebox
 
 with open('.resources/temp/admin.pass', 'r') as file:
     sudo_passwd = file.read()
