@@ -1,4 +1,4 @@
-# SNORT GUI and Deep Model Intrusion Detection Evaluation of NSL KDD and CIC IDS 2018 datasets.
+# SNORT GUI
 
 A actively developed blue team application for SNORT. Intended for forensic, incident handling and analysis.
 
