@@ -175,11 +175,6 @@ def use():
     st.image_create(29.0, image=sn8,padx=50,pady=20)
     st.configure(state='disabled')
 
-
-  
-   
-
-
 # add widgets here
 b1 = tk.Button(text='Getting started with snort', command=getting_started)
 b1.place(x=70, y=150)
