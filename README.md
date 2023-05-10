@@ -36,11 +36,11 @@ snort -A console -A fast -q -i <network_interface> -c <configuration_file> -l <l
 
 ### Pre-requisite
 
-1. A Linux distro (preferably Ubuntu).
+1. A Linux distro that has snort installed (preferably Ubuntu).
 
 ### Download
 
-1. Download the latest `snortgui-enterprise-edition.zip` release (tag: v2) available in the "Releases" tab.
+1. Download the latest `snortgui-ENTERPRISE.zip` release (tag: v3) available in the "Releases" tab.
 2. Alternatively, download via Git, and navigate to "snort/snortgui/" for application files.
 > **Note**: If you opt for **method 2**, rename the `resources` folder to `.resources`.
 
@@ -93,7 +93,7 @@ Figure 3.1: Configuring SNORT
 
 Figure 3.2: Running SNORT
 
-> **Note**: SNORT GUI v1.1 features security patches and bug fixes, additionally running resources via downloading the repository will not work, make sure you download the latest stable release of `snortgui.zip` to run the application hassle free.
+> **Note**: SNORT GUI v3 features security patches and bug fixes with a help and support centre to explain snort-gui usage. Make sure you download the latest stable release of `snortgui-ENTERPRISE.zip`**(tag: v3)** to run the application hassle free.
 
 ## Connect with me
 
