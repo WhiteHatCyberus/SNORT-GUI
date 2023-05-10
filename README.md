@@ -103,4 +103,4 @@ Figure 3.2: Running SNORT
 
 ## Credits
 
-Thank you [Joule Effect](https://github.com/jouleffect) and [ChrisJD20](https://github.com/chrisjd20/Snorpy).
+Thank you [ChrisJD20](https://github.com/chrisjd20/Snorpy) for your preliminary contribution to the snort rule generator.
