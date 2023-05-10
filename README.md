@@ -4,7 +4,7 @@ A actively developed blue team application for SNORT. Intended for forensic, inc
 
 ## Table of Contents
 1. [Research Architecture](#research-architecture)
-2. [SNORT GUI v2](#snort-gui-v2)
+2. [SNORT GUI](#snort-gui-v3)
     * [Pre-requisite](#pre-requisite)
     * [Download](#download)
     * [Installation](#installation)
@@ -18,7 +18,7 @@ A actively developed blue team application for SNORT. Intended for forensic, inc
 
 > **Warning** This is currently in progress, so I will be updating this repository.
 
-## SNORT GUI v2 
+## SNORT GUI v3
 
 > STATUS: :heavy_check_mark:
 
