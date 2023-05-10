@@ -1,10 +1,12 @@
 # SNORT GUI
+> **Warning**: This application is **Completed** as of May 2023, further updates to the application are discontinued and bears no warranty in the future. As of now , May, 2023, the application runs optimally, keeping in mind the security and complexity of the current real world network scenario. Usage of this application for commercial or educational use requires scrutiny of network administrative personnel. Any loss in data, damage to configuration should be under user discretion.
 
-A actively developed blue team application for SNORT. Intended for forensic, incident handling and analysis.
+## About
+A actively developed blue team application for SNORT, a popular Intrusion Detection/Prevention System intended for forensic, incident handling and analysis of network abnormalities.
 
 ## Table of Contents
 1. [Research Architecture](#research-architecture)
-2. [SNORT GUI](#snort-gui-v3)
+2. [SNORT GUI v3](#snort-gui-v3)
     * [Pre-requisite](#pre-requisite)
     * [Download](#download)
     * [Installation](#installation)
@@ -16,7 +18,6 @@ A actively developed blue team application for SNORT. Intended for forensic, inc
 ![Research Architecture](https://user-images.githubusercontent.com/70995581/229307468-1aa44b4f-0695-4f10-ba31-b71a0360c0ed.png)
 
 
-> **Warning** This is currently in progress, so I will be updating this repository.
 
 ## SNORT GUI v3
 
@@ -31,7 +32,7 @@ The SNORT GUI main program consists of:
 ```bash
 snort -A console -A fast -q -i <network_interface> -c <configuration_file> -l <log_folderpath>
 ```
->  :bangbang:  Help: **Currently In Development** covers snort documentation, simulation guides, walkthroughs, snort rule formulation, basic attack and mitigation walkthroughs.
+>  :bangbang:  Help: covers snort-gui documentation and usage, simulation guides, walkthroughs, snort rule formulation, basic attack and mitigation walkthroughs.
 
 ### Pre-requisite
 
