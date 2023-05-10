@@ -1,5 +1,5 @@
 # SNORT GUI
-> **Warning**: This application is **Completed** as of May 2023, further updates to the application are discontinued and bears no warranty in the future. As of now , May, 2023, the application runs optimally, keeping in mind the security and complexity of the current real world network scenario. Usage of this application for commercial or educational use requires scrutiny of network administrative personnel. Any loss in data, damage to configuration should be under user discretion.
+> **Warning**: This application is **Completed** as of May 2023, further updates to the application are *discontinued* and bears no warranty in the future. As of now , May, 2023, the application runs optimally, keeping in mind the security and complexity of the current real world network scenario. Usage of this application for commercial or educational use requires scrutiny of network administrative personnel. Any loss in data, damage to configuration should be under user discretion.
 
 ## About
 A actively developed blue team application for SNORT, a popular Intrusion Detection/Prevention System intended for forensic, incident handling and analysis of network abnormalities.
