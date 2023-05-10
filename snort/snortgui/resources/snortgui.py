@@ -86,8 +86,9 @@ try:
                     os.system(command)
 
                 def help():
-                    messagebox.showerror("Under construction","The help centre is under development, coming soon...")
-                
+                    command="python3 .resources/help.py"
+                    os.system(command)
+               
                 
                 # create the buttons
                 button_width, button_height = 20, 2
