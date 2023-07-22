@@ -46,7 +46,7 @@ snort -A console -A fast -q -i <network_interface> -c <configuration_file> -l <l
 
 ### Installation
 
-For first-time installation, run:
+1. For first-time installation, run:
 
 ```bash
 sudo python3 installer.py
